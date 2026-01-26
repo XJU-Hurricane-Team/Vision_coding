@@ -1,0 +1,73 @@
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:1:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    1 | #include [01;31m[K＜memory＞[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:9:10:[m[K [01;31m[Kerror: [m[K#include expects "FILENAME" or <FILENAME>
+    9 | #include [01;31m[K＜chrono＞[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:16:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDynamicTFBroadcaster（）[m[K’ does not name a type; did you mean ‘[01m[KDynamicTFBroadcaster[m[K’?
+   16 | [01;31m[KDynamicTFBroadcaster（）[m[K : Node（"dynamic_tf_broadcaster"）
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      | [32m[KDynamicTFBroadcaster[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:22:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KpublishTransform（）[m[K’ declared void
+   22 | void [01;31m[KpublishTransform（）[m[K
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:36:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   36 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:38:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_ptr＜tf2_ros[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   38 | std::[01;31m[Kshared_ptr＜tf2_ros[m[K::TransformBroadcaster＞ tf_broadcaster_;
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:41:15:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kargc[m[K’
+   41 | int main（int [01;31m[Kargc[m[K, char ＊＊argv）
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:59:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass DynamicTFBroadcaster[m[K’
+   59 | class [01;31m[KDynamicTFBroadcaster[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:13:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass DynamicTFBroadcaster[m[K’
+   13 | class [01;36m[KDynamicTFBroadcaster[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/unordered_map:40[m[K,
+                 from [01m[K/usr/include/c++/11/functional:61[m[K,
+                 from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp:8[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:2[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = DynamicTFBroadcaster; _Args = {}; _Tp = DynamicTFBroadcaster][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = DynamicTFBroadcaster; _Args = {}; _Tp = DynamicTFBroadcaster; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<DynamicTFBroadcaster>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = DynamicTFBroadcaster; _Alloc = std::allocator<DynamicTFBroadcaster>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = DynamicTFBroadcaster; _Alloc = std::allocator<DynamicTFBroadcaster>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DynamicTFBroadcaster>; _Args = {}; _Tp = DynamicTFBroadcaster; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<DynamicTFBroadcaster>; _Args = {}; _Tp = DynamicTFBroadcaster][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = DynamicTFBroadcaster; _Alloc = std::allocator<DynamicTFBroadcaster>; _Args = {}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = DynamicTFBroadcaster; _Args = {}][m[K’
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:88:55:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[KDynamicTFBroadcaster::DynamicTFBroadcaster()[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:13:7:[m[K [01;36m[Knote: [m[K‘[01m[KDynamicTFBroadcaster::DynamicTFBroadcaster()[m[K’ is implicitly deleted because the default definition would be ill-formed:
+   13 | class [01;36m[KDynamicTFBroadcaster[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:13:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/dynamic_tf_broadcaster.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1294 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+gmake[2]: *** [CMakeFiles/dynamic_tf_broadcaster.dir/build.make:76: CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/dynamic_tf_broadcaster.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

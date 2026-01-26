@@ -1,0 +1,7 @@
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::getTransform()[m[K’:
+[01m[K/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:24:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktranslation[m[K’
+   24 |                 const auto &translation = transform.[01;31m[Ktranslation[m[K;
+      |                                                     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:76: CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tf_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

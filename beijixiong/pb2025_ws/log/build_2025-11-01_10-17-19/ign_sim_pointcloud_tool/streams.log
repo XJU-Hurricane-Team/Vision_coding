@@ -1,0 +1,125 @@
+[0.029s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.109s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.159s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.159s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.161s] -- Detecting CXX compiler ABI info
+[0.212s] -- Detecting CXX compiler ABI info - done
+[0.219s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.219s] -- Detecting CXX compile features
+[0.220s] -- Detecting CXX compile features - done
+[0.221s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.321s] -- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.385s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.489s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.491s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.504s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.540s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.542s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.671s] -- Looking for pthread.h
+[0.720s] -- Looking for pthread.h - found
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.772s] -- Found Threads: TRUE  
+[0.916s] -- Checking for module 'eigen3'
+[0.924s] --   Found eigen3, version 3.4.0
+[0.945s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.945s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.967s] -- Checking for module 'flann'
+[0.975s] --   Found flann, version 1.9.1
+[1.001s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.001s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.700s] -- Checking for module 'libusb-1.0'
+[1.710s] --   Found libusb-1.0, version 1.0.25
+[1.733s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.735s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.773s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.925s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.931s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.937s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.089s] -- Found Qhull version 8.0.2
+[2.232s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.334s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.335s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.336s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.336s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.337s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.337s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.338s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.338s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.338s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.339s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.340s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.340s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.341s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.342s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.343s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.343s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.344s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.345s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.345s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.346s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.347s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.347s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.347s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.348s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.349s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.358s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.369s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/ign_sim_pointcloud_tool` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.372s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.373s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.373s] -- Configured cppcheck include dirs: /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool/include
+[2.373s] -- Configured cppcheck exclude dirs and/or files: 
+[2.374s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.374s] -- Configured cpplint exclude dirs and/or files: 
+[2.374s] -- Added test 'lint_cmake' to check CMake code style
+[2.374s] -- Added test 'xmllint' to check XML markup files
+[2.375s] -- Added test 'clang_format' to check C / C++ code style
+[2.377s] -- Configuring done
+[2.397s] -- Generating done
+[2.406s] -- Build files have been written to: /home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool
+[2.420s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/ign_sim_pointcloud_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool
+[2.422s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool -- -j28 -l28
+[2.463s] [ 25%] [32mBuilding CXX object CMakeFiles/ign_sim_pointcloud_tool.dir/src/point_cloud_converter.cpp.o[0m
+[2.466s] [ 50%] [32mBuilding CXX object CMakeFiles/ign_sim_pointcloud_tool_node.dir/rclcpp_components/node_main_ign_sim_pointcloud_tool_node.cpp.o[0m
+[6.388s] [ 75%] [32m[1mLinking CXX executable ign_sim_pointcloud_tool_node[0m
+[6.520s] [ 75%] Built target ign_sim_pointcloud_tool_node
+[14.305s] [100%] [32m[1mLinking CXX shared library libign_sim_pointcloud_tool.so[0m
+[14.580s] [100%] Built target ign_sim_pointcloud_tool
+[14.590s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool -- -j28 -l28
+[14.591s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool
+[14.596s] -- Install configuration: "Release"
+[14.597s] -- Execute custom install script
+[14.597s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/lib/ign_sim_pointcloud_tool/ign_sim_pointcloud_tool_node
+[14.603s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/include/ign_sim_pointcloud_tool/point_cloud_converter.hpp
+[14.609s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/library_path.sh
+[14.617s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/library_path.dsv
+[14.622s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/lib/libign_sim_pointcloud_tool.so
+[14.629s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/package_run_dependencies/ign_sim_pointcloud_tool
+[14.637s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/parent_prefix_path/ign_sim_pointcloud_tool
+[14.645s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/ament_prefix_path.sh
+[14.653s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/ament_prefix_path.dsv
+[14.660s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/path.sh
+[14.666s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/environment/path.dsv
+[14.674s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.bash
+[14.681s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.sh
+[14.689s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.zsh
+[14.696s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/local_setup.dsv
+[14.702s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.dsv
+[14.707s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/packages/ign_sim_pointcloud_tool
+[14.715s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ament_index/resource_index/rclcpp_components/ign_sim_pointcloud_tool
+[14.723s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.729s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.735s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ament_cmake_export_libraries-extras.cmake
+[14.743s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ign_sim_pointcloud_toolConfig.cmake
+[14.750s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/cmake/ign_sim_pointcloud_toolConfig-version.cmake
+[14.759s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/ign_sim_pointcloud_tool/share/ign_sim_pointcloud_tool/package.xml
+[14.768s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool

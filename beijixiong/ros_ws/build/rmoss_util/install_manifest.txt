@@ -1,0 +1,3 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_util/lib/librmoss_util.so
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_util/share/rmoss_util/cmake/rmoss_utilExport.cmake
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_util/share/rmoss_util/cmake/rmoss_utilExport-release.cmake

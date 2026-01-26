@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake

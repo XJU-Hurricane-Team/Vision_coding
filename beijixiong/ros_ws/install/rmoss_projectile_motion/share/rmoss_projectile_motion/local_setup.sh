@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_projectile_motion/ament_cmake_environment_hooks/local_setup.sh

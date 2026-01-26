@@ -1,0 +1,38 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/ament_index/resource_index/package_run_dependencies/pb2025_sentry_nav
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/ament_index/resource_index/parent_prefix_path/pb2025_sentry_nav
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/ament_prefix_path.sh
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/ament_prefix_path.dsv
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/path.sh
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/path.dsv
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.bash
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.sh
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.zsh
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.dsv
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.dsv
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/ament_index/resource_index/packages/pb2025_sentry_nav
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/cmake/pb2025_sentry_navConfig.cmake
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/cmake/pb2025_sentry_navConfig-version.cmake
+-- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.xml

@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces/msg/referee/ExchangeAmmon.msg

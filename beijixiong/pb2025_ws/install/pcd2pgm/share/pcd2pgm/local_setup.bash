@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm/ament_cmake_environment_hooks/local_setup.bash

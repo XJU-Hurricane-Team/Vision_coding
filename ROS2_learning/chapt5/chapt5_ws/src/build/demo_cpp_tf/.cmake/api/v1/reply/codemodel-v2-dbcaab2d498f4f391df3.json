@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-111438687790829b5375.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "demo_cpp_tf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_cpp_tf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_cpp_tf_uninstall-cea3a8700b1cc67f1c7e.json",
+					"name" : "demo_cpp_tf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dynamic_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dynamic_tf_broadcaster-82f8c332b11a93fa6c0c.json",
+					"name" : "dynamic_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "static_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-static_tf_broadcaster-699ba71dd7e726be9772.json",
+					"name" : "static_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tf_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tf_listener-dd0cd674d239c6a09382.json",
+					"name" : "tf_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-78ed33a310b47db6e604.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/build/demo_cpp_tf",
+		"source" : "/home/chairman/working/ros2/learning/chapt5/chapt5_ws/src/demo_cpp_tf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/pb2025_robot_description/ament_cmake_environment_hooks/local_setup.zsh

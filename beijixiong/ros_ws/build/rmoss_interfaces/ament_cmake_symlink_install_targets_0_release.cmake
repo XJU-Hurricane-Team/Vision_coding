@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_generator_py/rmoss_interfaces/rmoss_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "rmoss_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.10/site-packages/rmoss_interfaces")

@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/build/motion_control_system': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/src/motion_control_system -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system
+[0.019s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.104s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.122s] [31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+[0.123s]   Given plugin description file
+[0.123s]   '/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/src/motion_control_system/spin_motion_plugin'
+[0.123s]   does not exist
+[0.123s] Call Stack (most recent call first):
+[0.123s]   CMakeLists.txt:21 (pluginlib_export_plugin_description_file)
+[0.123s] 
+[0.123s] [0m
+[0.123s] -- Configuring incomplete, errors occurred!
+[0.123s] See also "/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/build/motion_control_system/CMakeFiles/CMakeOutput.log".
+[0.125s] Invoked command in '/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/build/motion_control_system' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/src/motion_control_system -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system

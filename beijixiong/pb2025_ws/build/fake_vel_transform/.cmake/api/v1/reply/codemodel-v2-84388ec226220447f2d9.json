@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-55b0945f8dc9368a81c8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "fake_vel_transform",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_vel_transform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_vel_transform-Release-04fa1d5a1ca67c6caedc.json",
+					"name" : "fake_vel_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_vel_transform_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_vel_transform_node-Release-b3db3fe1a81fa76e2f6f.json",
+					"name" : "fake_vel_transform_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fake_vel_transform_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fake_vel_transform_uninstall-Release-8f3862298c99e0047a32.json",
+					"name" : "fake_vel_transform_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-60676cc1e329f57f5e3a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/fake_vel_transform",
+		"source" : "/home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/fake_vel_transform"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

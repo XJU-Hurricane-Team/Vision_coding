@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-dd72f1a9c02b9c00434f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pb_omni_pid_pursuit_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_omni_pid_pursuit_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_omni_pid_pursuit_controller-Release-eb0e8861c8c8065d3732.json",
+					"name" : "pb_omni_pid_pursuit_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pb_omni_pid_pursuit_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pb_omni_pid_pursuit_controller_uninstall-Release-ff394a97fd3dee51f2e0.json",
+					"name" : "pb_omni_pid_pursuit_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-e5c4812b4416b9118c49.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller",
+		"source" : "/home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
