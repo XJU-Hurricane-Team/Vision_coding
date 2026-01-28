@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j28 -l28
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.056s] [ 50%] Built target cpp_node
+[0.056s] [100%] Built target person_node
+[0.065s] Invoked command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j28 -l28
+[0.078s] Invoking command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg
+[0.085s] -- Install configuration: ""
+[0.085s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.085s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.085s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.086s] -- Installing: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.086s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.087s] Invoked command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg

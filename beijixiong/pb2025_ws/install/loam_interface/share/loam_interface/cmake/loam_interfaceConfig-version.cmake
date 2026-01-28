@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/build/loam_interface/ament_cmake_core/loam_interfaceConfig-version.cmake

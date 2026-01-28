@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_typesupport_introspection_cpp/rmoss_interfaces/msg/detail/rfid_status__rosidl_typesupport_introspection_cpp.hpp

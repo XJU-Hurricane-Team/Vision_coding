@@ -1,0 +1,39 @@
+[0.009s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm -- -j28 -l28
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target pcd2pgm[0m
+[0.071s] [ 25%] [32mBuilding CXX object CMakeFiles/pgm_publisher.dir/src/pgm_publisher.cpp.o[0m
+[0.086s] [ 75%] Built target pcd2pgm
+[2.943s] [100%] [32m[1mLinking CXX executable pgm_publisher[0m
+[3.075s] [100%] Built target pgm_publisher
+[3.084s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm -- -j28 -l28
+[3.091s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm
+[3.097s] -- Install configuration: ""
+[3.097s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pcd2pgm
+[3.097s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pgm_publisher
+[3.098s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pgm_publisher" to ""
+[3.098s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch
+[3.098s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/start.launch.py
+[3.098s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/start_rviz.launch.py
+[3.098s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/run.launch
+[3.098s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save
+[3.098s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/scans.yaml
+[3.098s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/map_filter.pcd
+[3.101s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/scans.pgm
+[3.101s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/map_radius_filter.pcd
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/rviz
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/rviz/map_view.rviz
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/path.sh
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/path.dsv
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.bash
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.sh
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.zsh
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.dsv
+[3.103s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/package.dsv
+[3.103s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm
+[3.104s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake
+[3.104s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake
+[3.104s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/package.xml
+[3.105s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm

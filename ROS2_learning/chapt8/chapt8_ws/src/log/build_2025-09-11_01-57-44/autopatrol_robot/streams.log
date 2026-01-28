@@ -1,0 +1,23 @@
+[0.585s] Invoking command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/autopatrol_robot': PYTHONPATH=/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopatrol_robot build --build-base /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/build install --record /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[0.738s] running egg_info
+[0.738s] writing ../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[0.738s] writing dependency_links to ../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[0.739s] writing entry points to ../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[0.739s] writing requirements to ../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[0.739s] writing top-level names to ../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[0.740s] reading manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.740s] adding license file 'LICENSE'
+[0.740s] writing manifest file '../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.740s] running build
+[0.740s] running build_py
+[0.740s] running install
+[0.740s] running install_lib
+[0.741s] running install_data
+[0.741s] running install_egg_info
+[0.742s] removing '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[0.743s] Copying ../build/autopatrol_robot/autopatrol_robot.egg-info to /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot/lib/python3.10/site-packages/autopatrol_robot-0.0.0-py3.10.egg-info
+[0.743s] running install_scripts
+[0.756s] Installing patrol_node script to /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot/lib/autopatrol_robot
+[0.756s] Installing speaker script to /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot/lib/autopatrol_robot
+[0.756s] writing list of installed files to '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/install.log'
+[0.770s] Invoked command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/autopatrol_robot' returned '0': PYTHONPATH=/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/autopatrol_robot build --build-base /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/build install --record /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_robot/install.log --single-version-externally-managed install_data

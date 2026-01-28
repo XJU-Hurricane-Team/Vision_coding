@@ -1,0 +1,353 @@
+[0.012s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/fast_lio': AMENT_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/leida/ws_livox/src/fast_lio -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/leida/ws_livox/install/fast_lio
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.110s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.176s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.176s] -- Detecting C compile features
+[0.176s] -- Detecting C compile features - done
+[0.179s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.263s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.263s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.264s] [0mCurrent CPU archtecture: x86_64[0m
+[0.269s] [0mProcesser number:  28[0m
+[0.269s] [0mcore for MP: 3[0m
+[0.542s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[0.543s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.769s] -- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.832s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.862s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.866s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.871s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.919s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.921s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.987s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.007s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.037s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.043s] -- Looking for pthread.h
+[1.104s] -- Looking for pthread.h - found
+[1.104s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.169s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.170s] -- Found Threads: TRUE  
+[1.208s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.227s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.236s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.247s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.259s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.267s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.280s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.310s] -- Checking for module 'eigen3'
+[1.321s] --   Found eigen3, version 3.4.0
+[1.355s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.356s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.391s] -- Checking for module 'flann'
+[1.402s] --   Found flann, version 1.9.1
+[1.446s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.446s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.263s] -- Checking for module 'libusb-1.0'
+[2.275s] --   Found libusb-1.0, version 1.0.25
+[2.303s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.304s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.348s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.460s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.464s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.469s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.567s] -- Found Qhull version 8.0.2
+[2.674s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.774s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.774s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.775s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.775s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.776s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.777s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.777s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.777s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.778s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.778s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.779s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.780s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.780s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.781s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.782s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.782s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.783s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.783s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.784s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.785s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.785s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.785s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.786s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.786s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.787s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.805s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.806s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.806s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.853s] -- Found livox_ros_driver2: 1.0.0 (/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[2.866s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.872s] [33mCMake Warning (dev) at CMakeLists.txt:81 (find_package):
+[2.872s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[2.872s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[2.872s]   command to set the policy and suppress this warning.
+[2.873s] 
+[2.873s]   CMake variable PCL_ROOT is set to:
+[2.873s] 
+[2.873s]     /usr
+[2.873s] 
+[2.873s]   For compatibility, CMake is ignoring the variable.
+[2.873s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.873s] [0m
+[2.878s] [0mEigen:/usr/include/eigen3[0m
+[2.878s] -- PCL: /usr/include/pcl-1.12
+[3.060s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.369s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.383s] -- Found PythonInterp: /home/chairman/venv/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.385s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.403s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.403s] -- Using PYTHON_EXECUTABLE: /home/chairman/venv/bin/python3
+[3.403s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.403s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.417s] -- Found PythonExtra: .so  
+[3.455s] -- Configuring done
+[3.497s] -- Generating done
+[3.499s] [33mCMake Warning:
+[3.499s]   Manually-specified variables were not used by the project:
+[3.499s] 
+[3.500s]     HUMBLE_ROS
+[3.500s]     ROS_EDITION
+[3.500s] 
+[3.500s] [0m
+[3.510s] -- Build files have been written to: /home/chairman/working/ros2/leida/ws_livox/build/fast_lio
+[3.524s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/leida/ws_livox/src/fast_lio -DROS_EDITION=ROS2 -DHUMBLE_ROS=humble -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/leida/ws_livox/install/fast_lio
+[3.524s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/fast_lio': AMENT_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/leida/ws_livox/build/fast_lio -- -j28 -l28
+[3.564s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.572s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.580s] [  5%] Built target ament_cmake_python_copy_fast_lio
+[3.777s] running egg_info
+[3.792s] creating fast_lio.egg-info
+[3.792s] writing fast_lio.egg-info/PKG-INFO
+[3.792s] writing dependency_links to fast_lio.egg-info/dependency_links.txt
+[3.793s] writing top-level names to fast_lio.egg-info/top_level.txt
+[3.793s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.811s] [  5%] Built target fast_lio__cpp
+[3.820s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.821s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.821s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.830s] [ 17%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_c.dir/rosidl_generator_c/fast_lio/msg/detail/pose6_d__functions.c.o[0m
+[3.839s] reading manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.840s] writing manifest file 'fast_lio.egg-info/SOURCES.txt'
+[3.868s] [ 17%] Built target ament_cmake_python_build_fast_lio_egg
+[3.931s] [ 20%] [32m[1mLinking C shared library libfast_lio__rosidl_generator_c.so[0m
+[3.969s] [ 20%] Built target fast_lio__rosidl_generator_c
+[3.979s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.980s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.980s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.051s] [ 31%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[4.064s] [ 34%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fast_lio/msg/detail/pose6_d__type_support.cpp.o[0m
+[4.127s] [ 37%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fast_lio/msg/detail/dds_fastrtps/pose6_d__type_support.cpp.o[0m
+[4.233s] [ 40%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fast_lio/msg/detail/pose6_d__type_support_c.cpp.o[0m
+[4.249s] [ 42%] [32mBuilding CXX object CMakeFiles/fast_lio__rosidl_typesupport_c.dir/rosidl_typesupport_c/fast_lio/msg/pose6_d__type_support.cpp.o[0m
+[4.284s] [ 45%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_c.so[0m
+[4.320s] [ 45%] Built target fast_lio__rosidl_typesupport_c
+[4.344s] [ 48%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_introspection_cpp.so[0m
+[4.349s] [ 51%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_cpp.so[0m
+[4.362s] [ 54%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fast_lio/msg/detail/pose6_d__type_support.c.o[0m
+[4.387s] [ 54%] Built target fast_lio__rosidl_typesupport_introspection_cpp
+[4.388s] [ 54%] Built target fast_lio__rosidl_typesupport_cpp
+[4.402s] [ 57%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.407s] [ 60%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/laserMapping.cpp.o[0m
+[4.410s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/src/preprocess.cpp.o[0m
+[4.410s] [ 65%] [32mBuilding CXX object CMakeFiles/fastlio_mapping.dir/include/ikd-Tree/ikd_Tree.cpp.o[0m
+[4.424s] [ 68%] [32m[1mLinking C shared library libfast_lio__rosidl_typesupport_introspection_c.so[0m
+[4.458s] [ 68%] Built target fast_lio__rosidl_typesupport_introspection_c
+[4.473s] [ 71%] [32m[1mLinking CXX shared library libfast_lio__rosidl_typesupport_fastrtps_c.so[0m
+[4.481s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_cpp
+[4.536s] [ 71%] Built target fast_lio__rosidl_typesupport_fastrtps_c
+[4.557s] [ 71%] Built target fast_lio
+[4.578s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.969s] [ 74%] Built target fast_lio__py
+[4.991s] [ 77%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_generator_py.dir/rosidl_generator_py/fast_lio/msg/_pose6_d_s.c.o[0m
+[5.099s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/libfast_lio__rosidl_generator_py.so[0m
+[5.141s] [ 80%] Built target fast_lio__rosidl_generator_py
+[5.164s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.164s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.164s] [ 88%] [32mBuilding C object CMakeFiles/fast_lio__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c.o[0m
+[5.261s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.283s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.289s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.297s] [ 97%] Built target fast_lio__rosidl_typesupport_c__pyext
+[5.319s] [ 97%] Built target fast_lio__rosidl_typesupport_introspection_c__pyext
+[5.321s] [ 97%] Built target fast_lio__rosidl_typesupport_fastrtps_c__pyext
+[8.829s] In file included from [01m[K/usr/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22[m[K,
+[8.829s]                  from [01m[K/usr/include/boost/smart_ptr/detail/yield_k.hpp:23[m[K,
+[8.829s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14[m[K,
+[8.829s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock.hpp:42[m[K,
+[8.829s]                  from [01m[K/usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:25[m[K,
+[8.829s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:29[m[K,
+[8.829s]                  from [01m[K/usr/include/boost/shared_ptr.hpp:17[m[K,
+[8.830s]                  from [01m[K/usr/include/boost/date_time/microsec_time_clock.hpp:18[m[K,
+[8.830s]                  from [01m[K/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:31[m[K,
+[8.830s]                  from [01m[K/usr/include/boost/interprocess/detail/os_thread_functions.hpp:36[m[K,
+[8.830s]                  from [01m[K/usr/include/boost/interprocess/sync/file_lock.hpp:26[m[K,
+[8.830s]                  from [01m[K/usr/include/pcl-1.12/pcl/io/pcd_io.h:46[m[K,
+[8.830s]                  from [01m[K/opt/ros/humble/include/pcl_conversions/pcl_conversions/pcl_conversions.h:73[m[K,
+[8.830s]                  from [01m[K/home/chairman/working/ros2/leida/ws_livox/src/fast_lio/src/IMU_Processing.hpp:18[m[K,
+[8.830s]                  from [01m[K/home/chairman/working/ros2/leida/ws_livox/src/fast_lio/src/laserMapping.cpp:47[m[K:
+[8.830s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[8.830s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[8.830s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[47.938s] [100%] [32m[1mLinking CXX executable fastlio_mapping[0m
+[48.633s] [100%] Built target fastlio_mapping
+[48.640s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/leida/ws_livox/build/fast_lio -- -j28 -l28
+[48.642s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/fast_lio': AMENT_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/leida/ws_livox/build/fast_lio
+[48.650s] -- Install configuration: "Release"
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/ament_index/resource_index/rosidl_interfaces/fast_lio
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.h
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.h
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.h
+[48.650s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__functions.c
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_c__visibility_control.h
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.h
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/library_path.sh
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/library_path.dsv
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so
+[48.651s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_generator_c.so" to ""
+[48.651s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio
+[48.651s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg
+[48.651s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_c.h
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so
+[48.651s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_c.so" to ""
+[48.651s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio
+[48.651s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg
+[48.651s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[48.651s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__struct.hpp
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.hpp
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__traits.hpp
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__builder.hpp
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_generator_cpp__visibility_control.hpp
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/pose6_d.hpp
+[48.652s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio
+[48.652s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg
+[48.652s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/dds_fastrtps
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_fastrtps_cpp.hpp
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so
+[48.652s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_fastrtps_cpp.so" to ""
+[48.652s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio
+[48.652s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg
+[48.652s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[48.652s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_c.h
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.c
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so
+[48.653s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_c.so" to ""
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so
+[48.653s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_c.so" to ""
+[48.653s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio
+[48.653s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg
+[48.653s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__rosidl_typesupport_introspection_cpp.hpp
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/include/fast_lio/fast_lio/msg/detail/pose6_d__type_support.cpp
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so
+[48.653s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_introspection_cpp.so" to ""
+[48.653s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so
+[48.654s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_typesupport_cpp.so" to ""
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/pythonpath.sh
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/pythonpath.dsv
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio-0.0.0-py3.10.egg-info
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio-0.0.0-py3.10.egg-info/dependency_links.txt
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio-0.0.0-py3.10.egg-info/top_level.txt
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio-0.0.0-py3.10.egg-info/SOURCES.txt
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio-0.0.0-py3.10.egg-info/PKG-INFO
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg/_pose6_d.py
+[48.654s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg/_pose6_d_s.c
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg/__init__.py
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/__init__.py
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_introspection_c.c
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/libfast_lio__rosidl_generator_py.so
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_fastrtps_c.c
+[48.655s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/_fast_lio_s.ep.rosidl_typesupport_c.c
+[48.680s] Listing '/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio'...
+[48.680s] Compiling '/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/__init__.py'...
+[48.680s] Listing '/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg'...
+[48.680s] Compiling '/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg/__init__.py'...
+[48.680s] Compiling '/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/msg/_pose6_d.py'...
+[48.683s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[48.683s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[48.683s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[48.683s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[48.683s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[48.684s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages/fast_lio/fast_lio_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[48.684s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so
+[48.684s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/libfast_lio__rosidl_generator_py.so" to ""
+[48.684s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/msg/Pose6D.idl
+[48.684s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/msg/Pose6D.msg
+[48.684s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/fast_lio/fastlio_mapping
+[48.685s] -- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/fast_lio/fastlio_mapping" to ""
+[48.685s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/config
+[48.685s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/config/velodyne.yaml
+[48.685s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/config/ouster64.yaml
+[48.685s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/config/avia.yaml
+[48.685s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/config/mid360.yaml
+[48.685s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/config/horizon.yaml
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/launch
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/launch/start.launch.py
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/launch/gdb_debug_example.launch
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/launch/mapping.launch.py
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/rviz
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/rviz/fastlio.rviz
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/ament_index/resource_index/package_run_dependencies/fast_lio
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/ament_index/resource_index/parent_prefix_path/fast_lio
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/ament_prefix_path.sh
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/ament_prefix_path.dsv
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/path.sh
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/environment/path.dsv
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/local_setup.bash
+[48.686s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/local_setup.sh
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/local_setup.zsh
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/local_setup.dsv
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/package.dsv
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/ament_index/resource_index/packages/fast_lio
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cExport-release.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cExport-release.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_cppExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cExport-release.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cExport-release.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_introspection_cppExport-release.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport.cmake
+[48.687s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lio__rosidl_typesupport_cppExport-release.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/export_fast_lio__rosidl_generator_pyExport-release.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/rosidl_cmake-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_libraries-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_targets-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lioConfig.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/cmake/fast_lioConfig-version.cmake
+[48.688s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/fast_lio/share/fast_lio/package.xml
+[48.690s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/fast_lio' returned '0': AMENT_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/leida/ws_livox/build/fast_lio

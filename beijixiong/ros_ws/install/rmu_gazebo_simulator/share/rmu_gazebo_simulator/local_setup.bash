@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/ament_cmake_environment_hooks/local_setup.bash

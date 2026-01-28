@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopatrol_interfaces__py",
+		"source" : "/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/autopatrol_interfaces/autopatrol_interfaces__py"
+	}
+}

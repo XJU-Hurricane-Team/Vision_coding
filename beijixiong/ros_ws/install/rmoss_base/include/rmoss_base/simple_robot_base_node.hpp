@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_core/rmoss_base/include/rmoss_base/simple_robot_base_node.hpp

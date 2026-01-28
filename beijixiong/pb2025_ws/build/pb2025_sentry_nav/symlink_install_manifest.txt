@@ -1,0 +1,15 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/ament_index/resource_index/package_run_dependencies/pb2025_sentry_nav
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/ament_index/resource_index/parent_prefix_path/pb2025_sentry_nav
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/ament_prefix_path.sh
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/ament_prefix_path.dsv
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/path.sh
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/environment/path.dsv
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.bash
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.sh
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.zsh
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/local_setup.dsv
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.dsv
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/ament_index/resource_index/packages/pb2025_sentry_nav
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/cmake/pb2025_sentry_navConfig.cmake
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/cmake/pb2025_sentry_navConfig-version.cmake
+/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb2025_sentry_nav/share/pb2025_sentry_nav/package.xml

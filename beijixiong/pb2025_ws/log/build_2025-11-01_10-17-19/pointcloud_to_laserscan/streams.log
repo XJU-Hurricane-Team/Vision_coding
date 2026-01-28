@@ -1,0 +1,100 @@
+[0.027s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.154s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.215s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.215s] -- Detecting CXX compile features
+[0.215s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.318s] -- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.364s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.505s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.520s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.530s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.556s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.557s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.611s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Looking for pthread.h
+[0.720s] -- Looking for pthread.h - found
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.772s] -- Found Threads: TRUE  
+[0.908s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.919s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pointcloud_to_laserscan` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[0.926s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.927s] -- Configured cppcheck include dirs: /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pointcloud_to_laserscan/include
+[0.927s] -- Configured cppcheck exclude dirs and/or files: 
+[0.928s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.928s] -- Configured cpplint exclude dirs and/or files: 
+[0.928s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.929s] -- Added test 'lint_cmake' to check CMake code style
+[0.930s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.931s] -- Added test 'uncrustify' to check C / C++ code style
+[0.931s] -- Configured uncrustify additional arguments: 
+[0.931s] -- Added test 'xmllint' to check XML markup files
+[0.936s] -- Configuring done
+[0.978s] -- Generating done
+[0.989s] -- Build files have been written to: /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan
+[1.001s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pointcloud_to_laserscan -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan
+[1.003s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan -- -j28 -l28
+[1.031s] [ 10%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[1.031s] [ 20%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[1.035s] [ 30%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[3.416s] [ 40%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[3.548s] [ 40%] Built target laserscan_to_pointcloud_node
+[4.587s] [ 50%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[4.745s] [ 50%] Built target pointcloud_to_laserscan_node
+[17.150s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[17.281s] [ 60%] Built target laserscan_to_pointcloud
+[17.298s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[27.831s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[27.960s] [ 80%] Built target pointcloud_to_laserscan
+[27.977s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[31.336s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[31.437s] [100%] Built target dummy_pointcloud_publisher
+[31.448s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan -- -j28 -l28
+[31.449s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan
+[31.454s] -- Install configuration: "Release"
+[31.454s] -- Execute custom install script
+[31.455s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[31.461s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[31.468s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[31.474s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[31.480s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[31.487s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[31.492s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[31.498s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[31.505s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[31.511s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[31.516s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[31.521s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[31.527s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[31.534s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[31.539s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[31.544s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[31.551s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[31.559s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[31.564s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[31.569s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[31.575s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[31.581s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[31.588s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[31.593s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[31.598s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[31.603s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.609s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.614s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[31.620s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[31.625s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[31.631s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[31.638s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pointcloud_to_laserscan

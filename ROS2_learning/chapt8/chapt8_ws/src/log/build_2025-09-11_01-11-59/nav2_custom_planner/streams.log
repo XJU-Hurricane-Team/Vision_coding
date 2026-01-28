@@ -1,0 +1,11 @@
+[0.344s] Invoking command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/fishbot_application:/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot:/opt/ros/humble /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner -- -j28 -l28
+[0.385s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.400s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_controller.cpp.o[0m
+[0.409s] [01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/src/custom_controller.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/nav2_custom_controller/custom_controller.hpp: No such file or directory
+[0.409s]     1 | #include [01;31m[K"include/nav2_custom_controller/custom_controller.hpp"[m[K
+[0.409s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.409s] compilation terminated.
+[0.410s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:90: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_controller.cpp.o] Error 1
+[0.410s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+[0.410s] gmake: *** [Makefile:146: all] Error 2
+[0.412s] Invoked command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/fishbot_application:/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/autopatrol_robot:/opt/ros/humble /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner -- -j28 -l28

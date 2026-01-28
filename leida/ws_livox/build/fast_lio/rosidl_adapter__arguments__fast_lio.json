@@ -1,0 +1,6 @@
+{
+  "package_name": "fast_lio",
+  "non_idl_tuples": [
+    "/home/chairman/working/ros2/leida/ws_livox/src/fast_lio:msg/Pose6D.msg"
+  ]
+}

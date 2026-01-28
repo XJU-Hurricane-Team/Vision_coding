@@ -1,0 +1,83 @@
+[0.026s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.102s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.160s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.160s] -- Detecting C compile features
+[0.160s] -- Detecting C compile features - done
+[0.162s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.326s] -- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.495s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.498s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.502s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.520s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.550s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.553s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.617s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.638s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.674s] -- Looking for pthread.h
+[0.724s] -- Looking for pthread.h - found
+[0.724s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.773s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.774s] -- Found Threads: TRUE  
+[1.070s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.070s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.223s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.235s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pb_omni_pid_pursuit_controller` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.239s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.239s] -- Configured cppcheck include dirs: /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller/include
+[1.239s] -- Configured cppcheck exclude dirs and/or files: 
+[1.240s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.240s] -- Configured cpplint exclude dirs and/or files: 
+[1.240s] -- Added test 'lint_cmake' to check CMake code style
+[1.240s] -- Added test 'xmllint' to check XML markup files
+[1.241s] -- Added test 'clang_format' to check C / C++ code style
+[1.243s] -- Configuring done
+[1.313s] -- Generating done
+[1.319s] -- Build files have been written to: /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller
+[1.328s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pb_omni_pid_pursuit_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller
+[1.330s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller -- -j28 -l28
+[1.367s] [ 33%] [32mBuilding CXX object CMakeFiles/pb_omni_pid_pursuit_controller.dir/src/omni_pid_pursuit_controller.cpp.o[0m
+[1.369s] [ 66%] [32mBuilding CXX object CMakeFiles/pb_omni_pid_pursuit_controller.dir/src/pid.cpp.o[0m
+[11.146s] [100%] [32m[1mLinking CXX shared library libpb_omni_pid_pursuit_controller.so[0m
+[11.519s] [100%] Built target pb_omni_pid_pursuit_controller
+[11.531s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller -- -j28 -l28
+[11.542s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller
+[11.549s] -- Install configuration: "Release"
+[11.549s] -- Execute custom install script
+[11.550s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller//pb_omni_pid_pursuit_controller.xml
+[11.559s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/include/pb_omni_pid_pursuit_controller/omni_pid_pursuit_controller.hpp
+[11.568s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/include/pb_omni_pid_pursuit_controller/pid.hpp
+[11.576s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/library_path.sh
+[11.585s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/library_path.dsv
+[11.594s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/lib/libpb_omni_pid_pursuit_controller.so
+[11.603s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/pb_omni_pid_pursuit_controller
+[11.612s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/pb_omni_pid_pursuit_controller
+[11.620s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/ament_prefix_path.sh
+[11.629s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/ament_prefix_path.dsv
+[11.635s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/path.sh
+[11.644s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/environment/path.dsv
+[11.653s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.bash
+[11.661s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.sh
+[11.670s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.zsh
+[11.679s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/local_setup.dsv
+[11.688s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.dsv
+[11.696s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/packages/pb_omni_pid_pursuit_controller
+[11.705s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/pb_omni_pid_pursuit_controller
+[11.714s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.723s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.732s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[11.738s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/pb_omni_pid_pursuit_controllerConfig.cmake
+[11.745s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/cmake/pb_omni_pid_pursuit_controllerConfig-version.cmake
+[11.751s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pb_omni_pid_pursuit_controller/share/pb_omni_pid_pursuit_controller/package.xml
+[11.760s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_omni_pid_pursuit_controller

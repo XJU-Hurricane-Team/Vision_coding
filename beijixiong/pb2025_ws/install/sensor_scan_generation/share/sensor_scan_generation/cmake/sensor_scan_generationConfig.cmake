@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/build/sensor_scan_generation/ament_cmake_core/sensor_scan_generationConfig.cmake

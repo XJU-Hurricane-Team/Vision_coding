@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target patrol_client[0m
+[ 50%] Built target turtle_control
+[ 75%] [32mBuilding CXX object CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o[0m
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:46:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   20 |             RCLCPP__ERROR(this->get_logger(),[01;35m[K'等待服务的过程中被打断 ...'[m[K);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In member function ‘[01m[Kvoid PatrolClient::timer_callback()[m[K’:
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP__ERROR[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR[m[K’?
+   20 |             [01;31m[KRCLCPP__ERROR[m[K(this->get_logger(),'等待服务的过程中被打断 ...');
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[KRCLCPP_ERROR[m[K
+gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76: CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/patrol_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

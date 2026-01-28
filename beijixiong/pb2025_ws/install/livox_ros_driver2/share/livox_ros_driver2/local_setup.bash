@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/build/livox_ros_driver2/ament_cmake_environment_hooks/local_setup.bash

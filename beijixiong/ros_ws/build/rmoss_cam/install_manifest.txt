@@ -1,0 +1,6 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_cam/lib/librmoss_cam.so
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_cam/lib/libusb_cam_component.so
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_cam/lib/libvirtual_cam_component.so
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_cam/lib/libimage_task_demo_component.so
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_cam/share/rmoss_cam/cmake/export_rmoss_camExport.cmake
+/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_cam/share/rmoss_cam/cmake/export_rmoss_camExport-release.cmake

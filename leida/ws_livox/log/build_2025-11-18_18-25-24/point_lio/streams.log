@@ -1,0 +1,70 @@
+[0.011s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/point_lio': CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/home/chairman/working/ros2/leida/ws_livox/install/point_lio:/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm:/home/chairman/working/ros2/leida/ws_livox/install/odometry:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/leida/ws_livox/src/point_lio -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/leida/ws_livox/install/point_lio
+[0.023s] -- Processor number:  28
+[0.024s] -- core for MP:  3
+[0.024s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.118s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.139s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.141s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.180s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.181s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.290s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[0.290s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.298s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.309s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.319s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.331s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[0.356s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.380s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.590s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.594s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.705s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.710s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.714s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.818s] -- Found Qhull version 8.0.2
+[0.936s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.051s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.051s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.106s] -- Found livox_ros_driver2: 1.0.0 (/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[1.186s] -- Configuring done
+[1.212s] -- Generating done
+[1.219s] -- Build files have been written to: /home/chairman/working/ros2/leida/ws_livox/build/point_lio
+[1.230s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/home/chairman/working/ros2/leida/ws_livox/install/point_lio:/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm:/home/chairman/working/ros2/leida/ws_livox/install/odometry:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/leida/ws_livox/src/point_lio -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/leida/ws_livox/install/point_lio
+[1.232s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/point_lio': CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/home/chairman/working/ros2/leida/ws_livox/install/point_lio:/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm:/home/chairman/working/ros2/leida/ws_livox/install/odometry:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/leida/ws_livox/build/point_lio -- -j28 -l28
+[1.270s] [35m[1mConsolidate compiler generated dependencies of target pointlio_mapping[0m
+[1.309s] [100%] Built target pointlio_mapping
+[1.318s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/home/chairman/working/ros2/leida/ws_livox/install/point_lio:/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm:/home/chairman/working/ros2/leida/ws_livox/install/odometry:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/leida/ws_livox/build/point_lio -- -j28 -l28
+[1.324s] Invoking command in '/home/chairman/working/ros2/leida/ws_livox/build/point_lio': CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/home/chairman/working/ros2/leida/ws_livox/install/point_lio:/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm:/home/chairman/working/ros2/leida/ws_livox/install/odometry:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/leida/ws_livox/build/point_lio
+[1.332s] -- Install configuration: "Release"
+[1.332s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/lib/point_lio/pointlio_mapping
+[1.332s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/config
+[1.332s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/config/ouster64.yaml
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/config/avia.yaml
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/config/mid360.yaml
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/config/velody16.yaml
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/config/horizon.yaml
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/launch
+[1.333s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/launch/start_pcd.launch.py
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/launch/point_lio.launch.py
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/rviz_cfg
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[1.333s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[1.333s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/environment/path.sh
+[1.333s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/environment/path.dsv
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/local_setup.bash
+[1.333s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/local_setup.sh
+[1.334s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/local_setup.zsh
+[1.334s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/local_setup.dsv
+[1.334s] -- Installing: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/package.dsv
+[1.334s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[1.334s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.334s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[1.334s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[1.334s] -- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/point_lio/share/point_lio/package.xml
+[1.335s] Invoked command in '/home/chairman/working/ros2/leida/ws_livox/build/point_lio' returned '0': CMAKE_PREFIX_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2:/home/chairman/working/ros2/leida/ws_livox/install/point_lio:/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm:/home/chairman/working/ros2/leida/ws_livox/install/odometry:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu PYTHONPATH=/home/chairman/working/ros2/leida/ws_livox/install/livox_ros_driver2/lib/python3.10/site-packages:/home/chairman/working/ros2/leida/ws_livox/install/fast_lio/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/leida/ws_livox/build/point_lio

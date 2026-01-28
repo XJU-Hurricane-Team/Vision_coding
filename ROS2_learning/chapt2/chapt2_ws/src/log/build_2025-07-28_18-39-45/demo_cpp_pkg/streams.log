@@ -1,0 +1,69 @@
+[0.010s] Invoking command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j28 -l28
+[0.054s] [35m[1mConsolidate compiler generated dependencies of target person_node[0m
+[0.073s] [ 50%] Built target cpp_node
+[0.075s] [ 75%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[1.342s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.342s]                  from [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[1.342s] [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:[m[K In member function ‘[01m[Kvoid PersonNode::eat(const string&)[m[K’:
+[1.342s] [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:17:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.342s]    17 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"I am %s, %d years old, and I am eating %s"[m[K, name_, age_, food_name);
+[1.342s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.342s] [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:17:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.342s]    17 |         RCLCPP_INFO(this->get_logger(), "I am [01;36m[K%s[m[K, %d years old, and I am eating %s", name_, age_, food_name);
+[1.343s]       |                                               [01;36m[K~^[m[K
+[1.343s]       |                                                [01;36m[K|[m[K
+[1.343s]       |                                                [01;36m[Kchar*[m[K
+[1.343s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.343s]                  from [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:2[m[K:
+[1.343s] [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:17:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 7 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.343s]    17 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"I am %s, %d years old, and I am eating %s"[m[K, name_, age_, food_name);
+[1.343s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.343s] [01m[K/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/demo_cpp_pkg/src/person_node.cpp:17:82:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.343s]    17 |         RCLCPP_INFO(this->get_logger(), "I am %s, %d years old, and I am eating [01;36m[K%s[m[K", name_, age_, food_name);
+[1.343s]       |                                                                                 [01;36m[K~^[m[K
+[1.343s]       |                                                                                  [01;36m[K|[m[K
+[1.343s]       |                                                                                  [01;36m[Kchar*[m[K
+[1.663s] [100%] [32m[1mLinking CXX executable person_node[0m
+[1.759s] [100%] Built target person_node
+[1.768s] Invoked command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg -- -j28 -l28
+[1.782s] Invoking command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg
+[1.789s] -- Install configuration: ""
+[1.789s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[1.790s] -- Installing: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[1.790s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node" to ""
+[1.790s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[1.790s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[1.791s] -- Installing: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[1.791s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[1.792s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[1.792s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[1.793s] Invoked command in '/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/install/demo_python_pkg:/home/chairman/working/ros2/learning/chapt2/install/demo_python_pkg:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt2/chapt2_ws/src/build/demo_cpp_pkg

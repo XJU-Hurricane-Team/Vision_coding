@@ -1,0 +1,132 @@
+[0.028s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pcd2pgm -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.110s] -- The CXX compiler identification is GNU 11.4.0
+[0.116s] -- Detecting C compiler ABI info
+[0.166s] -- Detecting C compiler ABI info - done
+[0.172s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.228s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.235s] -- Detecting CXX compile features - done
+[0.236s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.333s] -- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.474s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.477s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.482s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.525s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.526s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.592s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.615s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.647s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.652s] -- Looking for pthread.h
+[0.705s] -- Looking for pthread.h - found
+[0.706s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.753s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.754s] -- Found Threads: TRUE  
+[0.873s] -- Checking for module 'eigen3'
+[0.881s] --   Found eigen3, version 3.4.0
+[0.900s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.900s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.941s] -- Checking for module 'flann'
+[0.949s] --   Found flann, version 1.9.1
+[0.972s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.972s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.693s] -- Checking for module 'libusb-1.0'
+[1.703s] --   Found libusb-1.0, version 1.0.25
+[1.725s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.726s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.767s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.897s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.901s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.906s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.006s] -- Found Qhull version 8.0.2
+[2.109s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.210s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.211s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.212s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.212s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.213s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.214s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.214s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.214s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.215s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.216s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.217s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.217s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.218s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.219s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.220s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.221s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.221s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.222s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.223s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.224s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.224s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.225s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.225s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.226s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.226s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.243s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.244s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.244s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.297s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.308s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/pcd2pgm` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.312s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.320s] -- Configured cppcheck include dirs: /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pcd2pgm/include
+[2.320s] -- Configured cppcheck exclude dirs and/or files: 
+[2.327s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.327s] -- Configured cpplint exclude dirs and/or files: 
+[2.329s] -- Added test 'lint_cmake' to check CMake code style
+[2.330s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.331s] -- Added test 'xmllint' to check XML markup files
+[2.338s] -- Added test 'clang_format' to check C / C++ code style
+[2.340s] -- Configuring done
+[2.367s] -- Generating done
+[2.375s] -- Build files have been written to: /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm
+[2.390s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pcd2pgm -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm
+[2.392s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm -- -j28 -l28
+[2.428s] [ 25%] [32mBuilding CXX object CMakeFiles/pcd2pgm.dir/src/pcd2pgm.cpp.o[0m
+[2.430s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd2pgm_node.dir/rclcpp_components/node_main_pcd2pgm_node.cpp.o[0m
+[6.931s] [ 75%] [32m[1mLinking CXX executable pcd2pgm_node[0m
+[7.063s] [ 75%] Built target pcd2pgm_node
+[14.473s] [100%] [32m[1mLinking CXX shared library libpcd2pgm.so[0m
+[14.965s] [100%] Built target pcd2pgm
+[14.976s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm -- -j28 -l28
+[14.978s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm
+[14.985s] -- Install configuration: "Release"
+[14.985s] -- Execute custom install script
+[14.986s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/lib/pcd2pgm/pcd2pgm_node
+[14.995s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/include/pcd2pgm/pcd2pgm.hpp
+[15.003s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/environment/library_path.sh
+[15.012s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/environment/library_path.dsv
+[15.020s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/lib/libpcd2pgm.so
+[15.028s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/config/pcd2pgm.yaml
+[15.037s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/launch/pcd2pgm_launch.py
+[15.045s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/rviz/pcd2pgm.rviz
+[15.054s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm
+[15.062s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm
+[15.069s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh
+[15.077s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv
+[15.086s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/environment/path.sh
+[15.094s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/environment/path.dsv
+[15.102s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/local_setup.bash
+[15.111s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/local_setup.sh
+[15.119s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/local_setup.zsh
+[15.127s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/local_setup.dsv
+[15.135s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/package.dsv
+[15.144s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm
+[15.152s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/ament_index/resource_index/rclcpp_components/pcd2pgm
+[15.160s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.169s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.178s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/cmake/ament_cmake_export_libraries-extras.cmake
+[15.185s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake
+[15.193s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake
+[15.202s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/pcd2pgm/share/pcd2pgm/package.xml
+[15.212s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm

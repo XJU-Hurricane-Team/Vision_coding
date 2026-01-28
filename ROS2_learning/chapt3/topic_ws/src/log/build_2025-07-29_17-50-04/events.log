@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000315] (-) JobUnselected: {'identifier': 'demo_python_topic'}
+[0.000366] (demo_cpp_topic) JobQueued: {'identifier': 'demo_cpp_topic', 'dependencies': OrderedDict()}
+[0.000790] (demo_cpp_topic) JobStarted: {'identifier': 'demo_cpp_topic'}
+[0.007616] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'cmake'}
+[0.008246] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'build'}
+[0.008869] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic', '--', '-j28', '-l28'], 'cwd': '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'chairman'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/chairman'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/chairman/working/ros2/learning'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '17049'), ('SYSTEMD_EXEC_PID', '19606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '32313'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'chairman'), ('JOURNAL_STREAM', '8:15743'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chairman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/chairman/miniconda3/bin:/home/chairman/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chairman-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/19533,unix/chairman-Legion-Y7000P-IRX9:/tmp/.ICE-unix/19533'), ('INVOCATION_ID', '595b1532e17b4150a26e18f339248790'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6bb655c3f4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_python_topic:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chairman/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chairman/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/chairman/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_python_topic:/opt/ros/humble')]), 'shell': False}
+[0.028838] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099981] (-) TimerEvent: {}
+[0.123535] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.142699] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.144223] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148065] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.154213] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.162074] (demo_cpp_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.182640] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.183565] (demo_cpp_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200131] (-) TimerEvent: {}
+[0.256194] (demo_cpp_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.290051] (demo_cpp_topic) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.297669] (demo_cpp_topic) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.300291] (-) TimerEvent: {}
+[0.321672] (demo_cpp_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.385095] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.385215] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.385250] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.385474] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.386000] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.386087] (demo_cpp_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.386256] (demo_cpp_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.386399] (demo_cpp_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.394343] (demo_cpp_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.397495] (demo_cpp_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic\n'}
+[0.400464] (-) TimerEvent: {}
+[0.428962] (demo_cpp_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_circle\x1b[0m\n'}
+[0.441887] (demo_cpp_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o\x1b[0m\n'}
+[0.444852] (demo_cpp_topic) StdoutLine: {'line': b'[ 75%] Built target turtle_circle\n'}
+[0.500557] (-) TimerEvent: {}
+[0.600798] (-) TimerEvent: {}
+[0.701131] (-) TimerEvent: {}
+[0.801440] (-) TimerEvent: {}
+[0.901774] (-) TimerEvent: {}
+[1.002083] (-) TimerEvent: {}
+[1.102401] (-) TimerEvent: {}
+[1.202740] (-) TimerEvent: {}
+[1.302968] (-) TimerEvent: {}
+[1.403289] (-) TimerEvent: {}
+[1.503532] (-) TimerEvent: {}
+[1.603820] (-) TimerEvent: {}
+[1.704102] (-) TimerEvent: {}
+[1.804375] (-) TimerEvent: {}
+[1.904727] (-) TimerEvent: {}
+[2.004968] (-) TimerEvent: {}
+[2.105282] (-) TimerEvent: {}
+[2.205597] (-) TimerEvent: {}
+[2.305947] (-) TimerEvent: {}
+[2.406195] (-) TimerEvent: {}
+[2.506508] (-) TimerEvent: {}
+[2.606740] (-) TimerEvent: {}
+[2.706961] (-) TimerEvent: {}
+[2.807224] (-) TimerEvent: {}
+[2.907547] (-) TimerEvent: {}
+[3.007812] (-) TimerEvent: {}
+[3.108037] (-) TimerEvent: {}
+[3.208374] (-) TimerEvent: {}
+[3.308716] (-) TimerEvent: {}
+[3.408947] (-) TimerEvent: {}
+[3.509257] (-) TimerEvent: {}
+[3.609554] (-) TimerEvent: {}
+[3.709786] (-) TimerEvent: {}
+[3.810108] (-) TimerEvent: {}
+[3.910417] (-) TimerEvent: {}
+[4.010741] (-) TimerEvent: {}
+[4.110954] (-) TimerEvent: {}
+[4.211172] (-) TimerEvent: {}
+[4.311474] (-) TimerEvent: {}
+[4.411777] (-) TimerEvent: {}
+[4.512000] (-) TimerEvent: {}
+[4.612249] (-) TimerEvent: {}
+[4.712565] (-) TimerEvent: {}
+[4.812816] (-) TimerEvent: {}
+[4.913038] (-) TimerEvent: {}
+[5.013351] (-) TimerEvent: {}
+[5.113784] (-) TimerEvent: {}
+[5.214062] (-) TimerEvent: {}
+[5.314313] (-) TimerEvent: {}
+[5.414570] (-) TimerEvent: {}
+[5.475320] (demo_cpp_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_control\x1b[0m\n'}
+[5.514750] (-) TimerEvent: {}
+[5.614972] (-) TimerEvent: {}
+[5.715279] (-) TimerEvent: {}
+[5.757351] (demo_cpp_topic) StdoutLine: {'line': b'[100%] Built target turtle_control\n'}
+[5.766286] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[5.767506] (demo_cpp_topic) JobProgress: {'identifier': 'demo_cpp_topic', 'progress': 'install'}
+[5.776221] (demo_cpp_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic'], 'cwd': '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'chairman'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/chairman'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/chairman/working/ros2/learning'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '17049'), ('SYSTEMD_EXEC_PID', '19606'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '32313'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'chairman'), ('JOURNAL_STREAM', '8:15743'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chairman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.6/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/chairman/miniconda3/bin:/home/chairman/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/chairman-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/19533,unix/chairman-Legion-Y7000P-IRX9:/tmp/.ICE-unix/19533'), ('INVOCATION_ID', '595b1532e17b4150a26e18f339248790'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libstdc++.so.6'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-6bb655c3f4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_python_topic:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chairman/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/build/demo_cpp_topic'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chairman/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_python_topic/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/chairman/miniconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_python_topic:/opt/ros/humble')]), 'shell': False}
+[5.785377] (demo_cpp_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.785522] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle\n'}
+[5.785668] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control\n'}
+[5.788642] (demo_cpp_topic) StdoutLine: {'line': b'-- Set runtime path of "/home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_control" to ""\n'}
+[5.788814] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic\n'}
+[5.788884] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic\n'}
+[5.788944] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh\n'}
+[5.789179] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv\n'}
+[5.789313] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh\n'}
+[5.789379] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv\n'}
+[5.789432] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash\n'}
+[5.789481] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh\n'}
+[5.789528] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh\n'}
+[5.789577] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv\n'}
+[5.789649] (demo_cpp_topic) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv\n'}
+[5.789701] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic\n'}
+[5.789750] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake\n'}
+[5.789805] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake\n'}
+[5.789851] (demo_cpp_topic) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/learning/chapt3/topic_ws/src/install/demo_cpp_topic/share/demo_cpp_topic/package.xml\n'}
+[5.791456] (demo_cpp_topic) CommandEnded: {'returncode': 0}
+[5.810550] (demo_cpp_topic) JobEnded: {'identifier': 'demo_cpp_topic', 'rc': 0}
+[5.811191] (-) EventReactorShutdown: {}

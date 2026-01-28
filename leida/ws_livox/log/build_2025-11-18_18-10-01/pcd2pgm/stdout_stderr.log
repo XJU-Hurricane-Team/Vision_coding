@@ -1,0 +1,160 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[33mCMake Warning (dev) at CMakeLists.txt:21 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  CMake variable PCL_ROOT is set to:
+
+    /usr
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Configuring done
+-- Generating done
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    HUMBLE_ROS
+    ROS_EDITION
+
+[0m
+-- Build files have been written to: /home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm
+[ 25%] [32mBuilding CXX object CMakeFiles/pgm_publisher.dir/src/pgm_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd2pgm.dir/src/pcd2pgm.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable pgm_publisher[0m
+[ 75%] Built target pgm_publisher
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:[m[K In member function ‘[01m[Kvoid Pcd2PgmNode::saveOccupancyGrid(const OccupancyGrid&, const string&)[m[K’:
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:104:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _width_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  104 |             for (int x = 0; [01;35m[Kx < map.info.width[m[K; ++x) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:[m[K In member function ‘[01m[Kvoid Pcd2PgmNode::PassThroughFilter(const double&, const double&, const int&, const string&)[m[K’:
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:148:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid pcl::PassThrough<PointT>::setFilterLimitsNegative(bool) [with PointT = pcl::PointXYZ][m[K’ is deprecated: use inherited FilterIndices::setNegative() instead (It will be removed in PCL 1.13) [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  148 |         [01;35m[Kpassthrough.setFilterLimitsNegative(flag_in)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:7[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/filters/passthrough.h:156:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  156 |       [01;36m[KsetFilterLimitsNegative[m[K (const bool limit_negative)
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:[m[K In member function ‘[01m[Kvoid Pcd2PgmNode::SetMapTopicMsg(pcl::PointCloud<pcl::PointXYZ>::Ptr, nav_msgs::msg::OccupancyGrid&)[m[K’:
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:222:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  222 |             if (i < 0 || [01;35m[Ki >= msg.info.width[m[K) continue;
+      |                          [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:225:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  225 |             if (j < 0 || [01;35m[Kj >= msg.info.height[m[K) continue;
+      |                          [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:182:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kk_line[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  182 |         double [01;35m[Kk_line[m[K = (z_max_grey_rate - z_min_grey_rate) / (thre_z_max - thre_z_min);
+      |                [01;35m[K^~~~~~[m[K
+[01m[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:183:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb_line[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  183 |         double [01;35m[Kb_line[m[K = (thre_z_max * z_min_grey_rate - thre_z_min * z_max_grey_rate) /
+      |                [01;35m[K^~~~~~[m[K
+[100%] [32m[1mLinking CXX executable pcd2pgm[0m
+[100%] Built target pcd2pgm
+-- Install configuration: ""
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pcd2pgm
+-- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pcd2pgm" to ""
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pgm_publisher
+-- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pgm_publisher" to ""
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/start.launch.py
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/start_rviz.launch.py
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/run.launch
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/scans.yaml
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/map_filter.pcd
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/scans.pgm
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/map_radius_filter.pcd
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/path.sh
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/path.dsv
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.bash
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.sh
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.zsh
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.dsv
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/package.dsv
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake
+-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/package.xml
