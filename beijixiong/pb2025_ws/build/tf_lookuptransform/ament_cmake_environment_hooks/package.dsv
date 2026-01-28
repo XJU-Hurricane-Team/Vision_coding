@@ -1,4 +1,0 @@
-source;share/tf_lookuptransform/local_setup.bash
-source;share/tf_lookuptransform/local_setup.dsv
-source;share/tf_lookuptransform/local_setup.sh
-source;share/tf_lookuptransform/local_setup.zsh

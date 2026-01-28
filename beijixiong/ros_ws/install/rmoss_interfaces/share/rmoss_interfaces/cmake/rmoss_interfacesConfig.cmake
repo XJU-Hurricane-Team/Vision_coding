@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/ament_cmake_core/rmoss_interfacesConfig.cmake

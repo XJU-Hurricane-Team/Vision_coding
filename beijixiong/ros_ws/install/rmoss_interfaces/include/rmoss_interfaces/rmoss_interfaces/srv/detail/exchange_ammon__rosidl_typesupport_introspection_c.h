@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_typesupport_introspection_c/rmoss_interfaces/srv/detail/exchange_ammon__rosidl_typesupport_introspection_c.h
