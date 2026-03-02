@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_gz_cam/ament_cmake_environment_hooks/local_setup.bash

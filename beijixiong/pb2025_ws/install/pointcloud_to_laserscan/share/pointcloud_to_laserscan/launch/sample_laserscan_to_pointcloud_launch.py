@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py

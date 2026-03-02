@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/ament_cmake_core/pb2025_sentry_navConfig-version.cmake

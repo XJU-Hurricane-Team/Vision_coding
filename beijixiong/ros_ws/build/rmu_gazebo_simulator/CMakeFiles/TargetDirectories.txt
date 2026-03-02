@@ -1,9 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/uninstall.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/rmu_gazebo_simulator_uninstall.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/test.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/edit_cache.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/rebuild_cache.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/list_install_components.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/install.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/install/local.dir
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmu_gazebo_simulator/CMakeFiles/install/strip.dir

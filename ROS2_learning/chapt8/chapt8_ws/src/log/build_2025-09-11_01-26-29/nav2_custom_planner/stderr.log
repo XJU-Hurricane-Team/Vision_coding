@@ -1,6 +1,0 @@
-[01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/src/custom_controller.cpp:57:88:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion at end of input
-   57 | PLUGINLIB_EXPORT_CLASS(nav2_custom_controller::CustomController, nav2_core::Controller)
-      |                                                                                        [01;31m[K^[m[K
-gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:90: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_controller.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

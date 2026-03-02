@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_typesupport_fastrtps_cpp/rmoss_interfaces/msg/detail/game_status__rosidl_typesupport_fastrtps_cpp.hpp

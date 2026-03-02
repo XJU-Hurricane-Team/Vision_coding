@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/pb2025_nav_bringup/launch/joy_teleop_launch.py

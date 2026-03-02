@@ -1,4 +1,0 @@
-[01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/src/custom_controller.cpp:[m[K In member function ‘[01m[Kgeometry_msgs::msg::PoseStamped nav2_custom_controller::CustomController::getNearestTargetPose(const PoseStamped&)[m[K’:
-[01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/src/custom_controller.cpp:89:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
-   89 |     [01;35m[K}[m[K
-      |     [01;35m[K^[m[K

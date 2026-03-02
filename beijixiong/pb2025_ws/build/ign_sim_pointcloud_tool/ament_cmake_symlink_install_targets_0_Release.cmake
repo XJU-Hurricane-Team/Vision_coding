@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/ign_sim_pointcloud_tool/ign_sim_pointcloud_tool_node" "TARGETS" "ign_sim_pointcloud_tool_node" "DESTINATION" "lib/ign_sim_pointcloud_tool")

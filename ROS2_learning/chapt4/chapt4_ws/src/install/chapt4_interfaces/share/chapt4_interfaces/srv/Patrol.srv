@@ -1,6 +1,0 @@
-float32 target_x # 目标 x 值
-float32 target_y # 目标 y 值
----
-int8 SUCCESS = 1 # 成功
-int8 FAIL = 0 # 失败
-int8 result # 结果

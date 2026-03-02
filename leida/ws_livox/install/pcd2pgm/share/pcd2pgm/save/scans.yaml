@@ -1,6 +1,0 @@
-image: /home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/save/scans.pgm
-resolution: 0.05
-origin: [-4.8088, -20.0508, 0]
-negate: 0
-occupied_thresh: 0.65
-free_thresh: 0.196

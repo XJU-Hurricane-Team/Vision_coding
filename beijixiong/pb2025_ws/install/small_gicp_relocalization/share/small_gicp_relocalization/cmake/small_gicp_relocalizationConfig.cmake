@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/small_gicp_relocalization/ament_cmake_core/small_gicp_relocalizationConfig.cmake

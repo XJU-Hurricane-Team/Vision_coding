@@ -1,9 +1,0 @@
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/uninstall.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/fishbot_navigation2_uninstall.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/test.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/edit_cache.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/rebuild_cache.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/list_install_components.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/install.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/install/local.dir
-/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/fishbot_navigation2/CMakeFiles/install/strip.dir
