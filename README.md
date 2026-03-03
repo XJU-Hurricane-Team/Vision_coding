@@ -21,6 +21,8 @@
 
 - 3.**simulation**
 
+  - **AMCL_仿真**
+  
   - ```
     colcon build --packages-select livox_ros_driver2 \
       --base-paths . \
@@ -29,13 +31,24 @@
 
   - `colcon build`
 
-  - `souce install/setup.bash`
+  - `source install/setup.bash`
 
   - `ros2 launch fishbot_navigation2 gazebo_sim.launch.py `（启动仿真）
 
   - `ros2 launch fishbot_navigation2 navigation2.launch.py `（启动导航）
-
+  
   - `ros2 launch odometry odometry_listener_launch.py `（获取里程计数据）
+  
+  - **悬浮_仿真**
+  
+  - `colcon build`
+  
+  - `source install/setup.bash`
+  
+  - `ros2 launch fishbot_navigation2 gazebo_sim.launch.py`（启动仿真）
+  
+  - `python unified_teleop.py`（启动控制键盘）
+  
 
 
 ---
