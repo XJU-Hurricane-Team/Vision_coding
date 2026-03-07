@@ -1,0 +1,36 @@
+<sdf version='1.7'>
+  <model name='RC26_world'>
+    <link name='base-point'>
+      <inertial>
+        <pose>1.68731 0.272738 0.217971 0 -0 0</pose>
+        <mass>16755.6</mass>
+        <inertia>
+          <ixx>26474</ixx>
+          <ixy>2547.08</ixy>
+          <ixz>-4.50829</ixz>
+          <iyy>18118.5</iyy>
+          <iyz>-33.5006</iyz>
+          <izz>44268.4</izz>
+        </inertia>
+      </inertial>
+      <collision name='base-point_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://RC26_world/meshes/base-point.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='base-point_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://RC26_world/meshes/base-point.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
