@@ -1,0 +1,235 @@
+[0.009s] Invoking command in '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.231s] -- Detecting C compiler ABI info - done
+[0.241s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.241s] -- Detecting C compile features
+[0.241s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.338s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.343s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.345s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.462s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.529s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.534s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.559s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.820s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.305s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.306s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.330s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.330s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.330s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.330s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.347s] -- Found PythonExtra: .so  
+[1.394s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.404s] -- Added test 'lint_cmake' to check CMake code style
+[1.405s] -- Added test 'xmllint' to check XML markup files
+[1.406s] -- Configuring done
+[1.427s] -- Generating done
+[1.434s] -- Build files have been written to: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces
+[1.441s] Invoked command in '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces
+[1.441s] Invoking command in '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces -- -j28 -l28
+[1.482s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.498s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.503s] [  6%] Built target ament_cmake_python_copy_chapt4_interfaces
+[1.645s] running egg_info
+[1.646s] creating chapt4_interfaces.egg-info
+[1.646s] writing chapt4_interfaces.egg-info/PKG-INFO
+[1.646s] writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt
+[1.646s] writing top-level names to chapt4_interfaces.egg-info/top_level.txt
+[1.646s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.647s] reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.647s] writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'
+[1.664s] [  6%] Built target ament_cmake_python_build_chapt4_interfaces_egg
+[1.692s] [  6%] Built target chapt4_interfaces__cpp
+[1.693s] [  9%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o[0m
+[1.700s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.700s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.700s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.740s] [ 22%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so[0m
+[1.771s] [ 22%] Built target chapt4_interfaces__rosidl_generator_c
+[1.782s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.782s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.782s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.874s] [ 35%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[1.891s] [ 38%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o[0m
+[1.892s] [ 41%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o[0m
+[1.955s] [ 45%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o[0m
+[1.979s] [ 48%] [32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o[0m
+[1.980s] [ 51%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o[0m
+[1.983s] [ 54%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so[0m
+[2.016s] [ 58%] [32m[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.018s] [ 58%] Built target chapt4_interfaces__rosidl_typesupport_c
+[2.043s] [ 58%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[2.051s] [ 61%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so[0m
+[2.086s] [ 61%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[2.138s] [ 64%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.153s] [ 67%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.184s] [ 70%] [32m[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.189s] [ 70%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[2.204s] [ 70%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.238s] [ 70%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[2.267s] [ 70%] Built target chapt4_interfaces
+[2.296s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.578s] [ 74%] Built target chapt4_interfaces__py
+[2.599s] [ 77%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o[0m
+[2.690s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so[0m
+[2.737s] [ 80%] Built target chapt4_interfaces__rosidl_generator_py
+[2.766s] [ 83%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.766s] [ 87%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.766s] [ 90%] [32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.835s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.836s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.839s] [100%] [32m[1mLinking C shared library rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.870s] [100%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[2.870s] [100%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.872s] [100%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.881s] Invoked command in '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces -- -j28 -l28
+[2.892s] Invoking command in '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces
+[2.901s] -- Install configuration: ""
+[2.901s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[2.901s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[2.901s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[2.901s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[2.902s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.902s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[2.902s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[2.902s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.902s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[2.903s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.903s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv
+[2.903s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[2.903s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.904s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[2.904s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/libchapt4_interfaces__rosidl_generator_py.so
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.904s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.905s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py
+[2.905s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv
+[2.905s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector_s.c
+[2.905s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py
+[2.905s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py
+[2.937s] Listing '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces'...
+[2.937s] Compiling '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/__init__.py'...
+[2.937s] Listing '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv'...
+[2.937s] Compiling '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/__init__.py'...
+[2.937s] Compiling '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/srv/_face_detector.py'...
+[2.940s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.940s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.940s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.940s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.940s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.941s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/local/lib/python3.10/dist-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so
+[2.941s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[2.941s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.942s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[2.943s] -- Installing: /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[2.945s] Invoked command in '/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/build/chapt4_interfaces

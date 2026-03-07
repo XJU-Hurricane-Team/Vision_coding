@@ -1,0 +1,54 @@
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:46:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   20 |             RCLCPP__ERROR(this->get_logger(),[01;35m[K'等待服务的过程中被打断 ...'[m[K);
+      |                                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:49:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   49 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:8:42:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    8 | class PatrolClient : public rclcpp::Node [01;36m[K{[m[K
+      |                                          [01;36m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In constructor ‘[01m[KPatrolClient::PatrolClient()[m[K’:
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpatrol_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KPatrolClient[m[K’?
+   11 |     [01;31m[Kpatrol_client_[m[K = this->create_client<Patrol>("patrol");
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+      |     [32m[KPatrolClient[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:12:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   12 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(10s, std::bind(&PatrolClient::timer_callback, this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In member function ‘[01m[Kvoid PatrolClient::timer_callback()[m[K’:
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpatrol_client_[m[K’ was not declared in this scope; did you mean ‘[01m[KPatrolClient[m[K’?
+   17 |     while (![01;31m[Kpatrol_client_[m[K->wait_for_service(std::chrono::seconds(1))){
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |             [32m[KPatrolClient[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP__ERROR[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_ERROR[m[K’?
+   20 |             [01;31m[KRCLCPP__ERROR[m[K(this->get_logger(),'等待服务的过程中被打断 ...');
+      |             [01;31m[K^~~~~~~~~~~~~[m[K
+      |             [32m[KRCLCPP_ERROR[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In lambda function:
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:37:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   37 |         }[01;31m[K)[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K In member function ‘[01m[Kvoid PatrolClient::timer_callback()[m[K’:
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:39:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kprivate[m[K’
+   39 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:29:39:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   29 |     patrol_client_->async_send_request[01;36m[K([m[Krequest,
+      |                                       [01;36m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:43:33:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   43 | int main(int argc, char **argv) [01;31m[K{[m[K
+      |                                 [01;31m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:49:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   49 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:15:25:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 |   void timer_callback() [01;36m[K{[m[K
+      |                         [01;36m[K^[m[K
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:[m[K At global scope:
+[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:49:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   49 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76: CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/patrol_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

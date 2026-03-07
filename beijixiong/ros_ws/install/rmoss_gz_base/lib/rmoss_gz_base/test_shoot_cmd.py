@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_gazebo/rmoss_gz_base/scripts/test_shoot_cmd.py

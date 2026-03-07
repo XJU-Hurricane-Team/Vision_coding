@@ -1,0 +1,31 @@
+[0.322s] Invoking command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner -- -j28 -l28
+[0.363s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.375s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[3.286s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[3.482s] [100%] Built target nav2_custom_planner_plugin
+[3.491s] Invoked command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner -- -j28 -l28
+[3.492s] Invoking command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner
+[3.498s] -- Install configuration: ""
+[3.498s] -- Installing: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[3.499s] -- Set runtime path of "/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/include/
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/include//nav2_custom_planner
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[3.499s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[3.500s] -- Installing: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[3.500s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[3.501s] -- Up-to-date: /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[3.501s] Invoked command in '/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/build/nav2_custom_planner

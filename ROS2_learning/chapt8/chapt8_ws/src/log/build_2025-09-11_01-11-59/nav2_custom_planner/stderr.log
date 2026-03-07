@@ -1,0 +1,7 @@
+[01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/src/custom_controller.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/nav2_custom_controller/custom_controller.hpp: No such file or directory
+    1 | #include [01;31m[K"include/nav2_custom_controller/custom_controller.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:90: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

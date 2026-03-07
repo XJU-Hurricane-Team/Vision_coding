@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/src/rmu_gazebo_simulator/rmu_gazebo_simulator/launch/bringup_sim.launch.py

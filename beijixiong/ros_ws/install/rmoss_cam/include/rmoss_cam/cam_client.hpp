@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_core/rmoss_cam/include/rmoss_cam/cam_client.hpp

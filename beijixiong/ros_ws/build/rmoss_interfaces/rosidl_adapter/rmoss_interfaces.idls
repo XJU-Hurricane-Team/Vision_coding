@@ -1,0 +1,17 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/RefereeCmd.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/GameStatus.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/RobotStatus.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/RfidStatus.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/RfidStatusArray.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/ExchangeAmmon.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/Gimbal.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/GimbalCmd.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/ShootCmd.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:msg/ChassisCmd.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/SetColor.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/SetMode.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/GetMode.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/GetCameraInfo.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/GetTaskStatus.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/ControlTask.idl
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_adapter/rmoss_interfaces:srv/ExchangeAmmon.idl

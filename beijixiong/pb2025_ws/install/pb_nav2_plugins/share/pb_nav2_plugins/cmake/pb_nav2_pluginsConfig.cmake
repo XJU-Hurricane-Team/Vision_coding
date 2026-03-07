@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb_nav2_plugins/ament_cmake_core/pb_nav2_pluginsConfig.cmake

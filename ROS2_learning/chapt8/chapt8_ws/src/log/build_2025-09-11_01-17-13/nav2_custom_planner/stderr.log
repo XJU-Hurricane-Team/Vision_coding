@@ -1,0 +1,8 @@
+In file included from [01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/src/custom_controller.cpp:1[m[K:
+[01m[K/home/chairman/working/ros2/learning/chapt8/chapt8_ws/src/nav2_custom_planner/include/nav2_custom_controller/custom_controller.hpp:8:10:[m[K [01;31m[Kfatal error: [m[Knav2_util/robot_util.hpp: No such file or directory
+    8 | #include [01;31m[K"nav2_util/robot_util.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:90: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

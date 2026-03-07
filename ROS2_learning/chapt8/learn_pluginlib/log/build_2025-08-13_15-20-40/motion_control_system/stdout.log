@@ -1,0 +1,40 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/src/motion_control_system/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/build/motion_control_system
+[ 50%] [32mBuilding CXX object CMakeFiles/spin_motion_controller.dir/src/spin_motion_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libspin_motion_controller.so[0m
+[100%] Built target spin_motion_controller
+-- Install configuration: ""
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/lib/libspin_motion_controller.so
+-- Set runtime path of "/home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/lib/libspin_motion_controller.so" to ""
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/include/
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/include//motion_control_system
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/include//motion_control_system/spin_motion_controller.hpp
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/include//motion_control_system/motion_control_interface.hpp
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/spin_motion_plugins.xml
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/package_run_dependencies/motion_control_system
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/parent_prefix_path/motion_control_system
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.sh
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.dsv
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/path.sh
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/path.dsv
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.bash
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.sh
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.zsh
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.dsv
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/package.dsv
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/packages/motion_control_system
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/motion_control_system__pluginlib__plugin/motion_control_system
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig.cmake
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig-version.cmake
+-- Installing: /home/chairman/working/ros2/learning/chapt8/learn_pluginlib/install/motion_control_system/share/motion_control_system/package.xml

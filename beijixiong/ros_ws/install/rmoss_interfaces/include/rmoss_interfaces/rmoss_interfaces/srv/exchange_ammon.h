@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_interfaces/rosidl_generator_c/rmoss_interfaces/srv/exchange_ammon.h

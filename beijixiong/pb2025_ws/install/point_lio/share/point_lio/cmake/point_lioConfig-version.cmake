@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio/ament_cmake_core/point_lioConfig-version.cmake

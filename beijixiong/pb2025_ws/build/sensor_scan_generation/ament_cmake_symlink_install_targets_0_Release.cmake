@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/sensor_scan_generation/sensor_scan_generation_node" "TARGETS" "sensor_scan_generation_node" "DESTINATION" "lib/sensor_scan_generation")

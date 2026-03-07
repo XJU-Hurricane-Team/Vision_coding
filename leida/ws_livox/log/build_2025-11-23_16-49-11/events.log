@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.000165] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.000186] (-) JobUnselected: {'identifier': 'odometry'}
+[0.000205] (-) JobUnselected: {'identifier': 'point_lio'}
+[0.000228] (pcd2pgm) JobQueued: {'identifier': 'pcd2pgm', 'dependencies': OrderedDict()}
+[0.000252] (pcd2pgm) JobStarted: {'identifier': 'pcd2pgm'}
+[0.006693] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'cmake'}
+[0.008350] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'build'}
+[0.009264] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm', '--', '-j28', '-l28'], 'cwd': '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'chairman'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/chairman'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1687'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1960'), ('BUNDLED_DEBUGPY_PATH', '/home/chairman/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2636'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'chairman'), ('JOURNAL_STREAM', '8:25787'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chairman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/chairman/venv/bin:/home/chairman/.local/bin:/opt/ros/humble/bin:/home/chairman/venv/bin:/home/chairman/miniconda3/condabin:/home/chairman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chairman/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chairman-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/1932,unix/chairman-Legion-Y7000P-IRX9:/tmp/.ICE-unix/1932'), ('INVOCATION_ID', '111f6e0894dc49aaa7fe99761d4664de'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chairman/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0d7340d1ad0b8057.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/chairman/.config/Code/User/workspaceStorage/b0ee0e4b793ed71277bbde5cc79badb0/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f980952e81.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chairman/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/chairman/venv'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chairman/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086472] (pcd2pgm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pgm_publisher\x1b[0m\n'}
+[0.099500] (-) TimerEvent: {}
+[0.112203] (pcd2pgm) StdoutLine: {'line': b'[ 50%] Built target pgm_publisher\n'}
+[0.114554] (pcd2pgm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/pcd2pgm.dir/src/pcd2pgm.cpp.o\x1b[0m\n'}
+[0.199590] (-) TimerEvent: {}
+[0.299858] (-) TimerEvent: {}
+[0.400181] (-) TimerEvent: {}
+[0.500475] (-) TimerEvent: {}
+[0.600785] (-) TimerEvent: {}
+[0.701041] (-) TimerEvent: {}
+[0.801265] (-) TimerEvent: {}
+[0.901523] (-) TimerEvent: {}
+[1.001766] (-) TimerEvent: {}
+[1.102050] (-) TimerEvent: {}
+[1.202362] (-) TimerEvent: {}
+[1.302679] (-) TimerEvent: {}
+[1.403008] (-) TimerEvent: {}
+[1.503297] (-) TimerEvent: {}
+[1.603565] (-) TimerEvent: {}
+[1.703870] (-) TimerEvent: {}
+[1.804172] (-) TimerEvent: {}
+[1.904487] (-) TimerEvent: {}
+[2.004800] (-) TimerEvent: {}
+[2.105268] (-) TimerEvent: {}
+[2.205615] (-) TimerEvent: {}
+[2.305991] (-) TimerEvent: {}
+[2.406218] (-) TimerEvent: {}
+[2.506481] (-) TimerEvent: {}
+[2.606758] (-) TimerEvent: {}
+[2.707033] (-) TimerEvent: {}
+[2.807353] (-) TimerEvent: {}
+[2.907630] (-) TimerEvent: {}
+[3.007968] (-) TimerEvent: {}
+[3.108207] (-) TimerEvent: {}
+[3.208524] (-) TimerEvent: {}
+[3.308771] (-) TimerEvent: {}
+[3.409012] (-) TimerEvent: {}
+[3.445103] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Pcd2PgmNode::saveOccupancyGrid(const OccupancyGrid&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.445275] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:104:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst _width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.445320] (pcd2pgm) StderrLine: {'line': b'  104 |             for (int x = 0; \x1b[01;35m\x1b[Kx < map.info.width\x1b[m\x1b[K; ++x) {\n'}
+[3.445355] (pcd2pgm) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.448980] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Pcd2PgmNode::PassThroughFilter(const double&, const double&, const int&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.449100] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:148:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid pcl::PassThrough<PointT>::setFilterLimitsNegative(bool) [with PointT = pcl::PointXYZ]\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use inherited FilterIndices::setNegative() instead (It will be removed in PCL 1.13) [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.449141] (pcd2pgm) StderrLine: {'line': b'  148 |         \x1b[01;35m\x1b[Kpassthrough.setFilterLimitsNegative(flag_in)\x1b[m\x1b[K;\n'}
+[3.449174] (pcd2pgm) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.449204] (pcd2pgm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:7\x1b[m\x1b[K:\n'}
+[3.449238] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/filters/passthrough.h:156:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[3.449266] (pcd2pgm) StderrLine: {'line': b'  156 |       \x1b[01;36m\x1b[KsetFilterLimitsNegative\x1b[m\x1b[K (const bool limit_negative)\n'}
+[3.449294] (pcd2pgm) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.451405] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Pcd2PgmNode::SetMapTopicMsg(pcl::PointCloud<pcl::PointXYZ>::Ptr, nav_msgs::msg::OccupancyGrid&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.451487] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:222:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.451528] (pcd2pgm) StderrLine: {'line': b'  222 |             if (i < 0 || \x1b[01;35m\x1b[Ki >= msg.info.width\x1b[m\x1b[K) continue;\n'}
+[3.451569] (pcd2pgm) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.451596] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:225:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.451625] (pcd2pgm) StderrLine: {'line': b'  225 |             if (j < 0 || \x1b[01;35m\x1b[Kj >= msg.info.height\x1b[m\x1b[K) continue;\n'}
+[3.451652] (pcd2pgm) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.451679] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:182:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kk_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.451712] (pcd2pgm) StderrLine: {'line': b'  182 |         double \x1b[01;35m\x1b[Kk_line\x1b[m\x1b[K = (z_max_grey_rate - z_min_grey_rate) / (thre_z_max - thre_z_min);\n'}
+[3.451741] (pcd2pgm) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.451767] (pcd2pgm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/chairman/working/ros2/leida/ws_livox/src/pcd2pgm/src/pcd2pgm.cpp:183:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kb_line\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.451802] (pcd2pgm) StderrLine: {'line': b'  183 |         double \x1b[01;35m\x1b[Kb_line\x1b[m\x1b[K = (thre_z_max * z_min_grey_rate - thre_z_min * z_max_grey_rate) /\n'}
+[3.451829] (pcd2pgm) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.509103] (-) TimerEvent: {}
+[3.609399] (-) TimerEvent: {}
+[3.709643] (-) TimerEvent: {}
+[3.809944] (-) TimerEvent: {}
+[3.910253] (-) TimerEvent: {}
+[4.010591] (-) TimerEvent: {}
+[4.110909] (-) TimerEvent: {}
+[4.211209] (-) TimerEvent: {}
+[4.311550] (-) TimerEvent: {}
+[4.411871] (-) TimerEvent: {}
+[4.512308] (-) TimerEvent: {}
+[4.612604] (-) TimerEvent: {}
+[4.712906] (-) TimerEvent: {}
+[4.813128] (-) TimerEvent: {}
+[4.913422] (-) TimerEvent: {}
+[5.013718] (-) TimerEvent: {}
+[5.114034] (-) TimerEvent: {}
+[5.214228] (-) TimerEvent: {}
+[5.224744] (pcd2pgm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pcd2pgm\x1b[0m\n'}
+[5.314319] (-) TimerEvent: {}
+[5.414553] (-) TimerEvent: {}
+[5.514785] (-) TimerEvent: {}
+[5.615149] (-) TimerEvent: {}
+[5.715411] (-) TimerEvent: {}
+[5.815674] (-) TimerEvent: {}
+[5.872713] (pcd2pgm) StdoutLine: {'line': b'[100%] Built target pcd2pgm\n'}
+[5.882562] (pcd2pgm) CommandEnded: {'returncode': 0}
+[5.883490] (pcd2pgm) JobProgress: {'identifier': 'pcd2pgm', 'progress': 'install'}
+[5.888641] (pcd2pgm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm'], 'cwd': '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'chairman'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:'), ('HOME', '/home/chairman'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\](venv) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1687'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1960'), ('BUNDLED_DEBUGPY_PATH', '/home/chairman/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2636'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'chairman'), ('JOURNAL_STREAM', '8:25787'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chairman'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/chairman/venv/bin:/home/chairman/.local/bin:/opt/ros/humble/bin:/home/chairman/venv/bin:/home/chairman/miniconda3/condabin:/home/chairman/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chairman/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/chairman-Legion-Y7000P-IRX9:@/tmp/.ICE-unix/1932,unix/chairman-Legion-Y7000P-IRX9:/tmp/.ICE-unix/1932'), ('INVOCATION_ID', '111f6e0894dc49aaa7fe99761d4664de'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/chairman/.vscode/extensions/ms-python.debugpy-2025.16.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-0d7340d1ad0b8057.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/chairman/.config/Code/User/workspaceStorage/b0ee0e4b793ed71277bbde5cc79badb0/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f980952e81.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/chairman/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VIRTUAL_ENV', '/home/chairman/venv'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/chairman/working/ros2/leida/ws_livox/build/pcd2pgm'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/chairman/miniconda3/bin/conda'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.895731] (pcd2pgm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.896552] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pcd2pgm\n'}
+[5.897497] (pcd2pgm) StdoutLine: {'line': b'-- Set runtime path of "/home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pcd2pgm" to ""\n'}
+[5.898030] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/lib/pcd2pgm/pgm_publisher\n'}
+[5.898175] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch\n'}
+[5.898254] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/start.launch.py\n'}
+[5.898310] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/start_rviz.launch.py\n'}
+[5.898384] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/launch/run.launch\n'}
+[5.898469] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save\n'}
+[5.898520] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/scans.yaml\n'}
+[5.898570] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/map_filter.pcd\n'}
+[5.901328] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/scans.pgm\n'}
+[5.901426] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/save/map_radius_filter.pcd\n'}
+[5.903900] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/rviz\n'}
+[5.903976] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/rviz/map_view.rviz\n'}
+[5.904010] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/package_run_dependencies/pcd2pgm\n'}
+[5.904064] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/parent_prefix_path/pcd2pgm\n'}
+[5.904113] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.sh\n'}
+[5.904144] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/ament_prefix_path.dsv\n'}
+[5.904172] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/path.sh\n'}
+[5.904203] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/environment/path.dsv\n'}
+[5.904240] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.bash\n'}
+[5.904271] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.sh\n'}
+[5.904318] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.zsh\n'}
+[5.904348] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/local_setup.dsv\n'}
+[5.904375] (pcd2pgm) StdoutLine: {'line': b'-- Installing: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/package.dsv\n'}
+[5.904403] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/ament_index/resource_index/packages/pcd2pgm\n'}
+[5.904432] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig.cmake\n'}
+[5.904459] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/cmake/pcd2pgmConfig-version.cmake\n'}
+[5.904487] (pcd2pgm) StdoutLine: {'line': b'-- Up-to-date: /home/chairman/working/ros2/leida/ws_livox/install/pcd2pgm/share/pcd2pgm/package.xml\n'}
+[5.905680] (pcd2pgm) CommandEnded: {'returncode': 0}
+[5.916026] (-) TimerEvent: {}
+[5.921688] (pcd2pgm) JobEnded: {'identifier': 'pcd2pgm', 'rc': 0}
+[5.922540] (-) EventReactorShutdown: {}

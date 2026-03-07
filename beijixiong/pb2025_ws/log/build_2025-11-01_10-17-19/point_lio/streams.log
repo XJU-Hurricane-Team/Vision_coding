@@ -1,0 +1,131 @@
+[0.010s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio': AMENT_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/point_lio -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.126s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.202s] -- Detecting CXX compiler ABI info
+[0.281s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.297s] -- Processor number:  28
+[0.297s] -- core for MP:  3
+[0.305s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.439s] -- Found Python3: /home/chairman/venv/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.542s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.592s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.597s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.607s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.690s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.692s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.778s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.807s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.859s] -- Looking for pthread.h
+[0.927s] -- Looking for pthread.h - found
+[0.928s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.998s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.999s] -- Found Threads: TRUE  
+[1.060s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.062s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.079s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.099s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.120s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.144s] -- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.190s] -- Checking for module 'eigen3'
+[1.203s] --   Found eigen3, version 3.4.0
+[1.232s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.232s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.273s] -- Checking for module 'flann'
+[1.285s] --   Found flann, version 1.9.1
+[1.321s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.321s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.245s] -- Checking for module 'libusb-1.0'
+[2.257s] --   Found libusb-1.0, version 1.0.25
+[2.284s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.285s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.329s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.446s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.452s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.458s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.586s] -- Found Qhull version 8.0.2
+[2.709s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.815s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.815s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.816s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.816s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.817s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.818s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.818s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.818s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.818s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.819s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.820s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.820s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.821s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.822s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.823s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.823s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.824s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.825s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.825s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.826s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.826s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.827s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.827s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.827s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.828s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.854s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.855s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.855s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.945s] -- Found livox_ros_driver2: 1.1.0 (/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[3.300s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.12") 
+[3.405s] -- Configuring done
+[3.455s] -- Generating done
+[3.465s] -- Build files have been written to: /home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio
+[3.484s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake /home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/point_lio -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio
+[3.486s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio': AMENT_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio -- -j28 -l28
+[3.536s] [ 57%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/parameters.cpp.o[0m
+[3.536s] [ 57%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/li_initialization.cpp.o[0m
+[3.536s] [ 57%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/preprocess.cpp.o[0m
+[3.536s] [ 57%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/laserMapping.cpp.o[0m
+[3.536s] [ 85%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/IMU_Processing.cpp.o[0m
+[3.537s] [ 85%] [32mBuilding CXX object CMakeFiles/pointlio_mapping.dir/src/Estimator.cpp.o[0m
+[38.974s] [100%] [32m[1mLinking CXX executable pointlio_mapping[0m
+[39.564s] [100%] Built target pointlio_mapping
+[39.575s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --build /home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio -- -j28 -l28
+[39.577s] Invoking command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio': AMENT_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio
+[39.585s] -- Install configuration: "Release"
+[39.586s] -- Execute custom install script
+[39.586s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/lib/point_lio/pointlio_mapping
+[39.596s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/config/avia.yaml
+[39.606s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/config/horizon.yaml
+[39.615s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/config/mid360.yaml
+[39.624s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/config/ouster64.yaml
+[39.633s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/config/velody16.yaml
+[39.643s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/launch/point_lio.launch.py
+[39.652s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/rviz_cfg/.gitignore
+[39.662s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/rviz_cfg/loam_livox.rviz
+[39.670s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/ament_index/resource_index/package_run_dependencies/point_lio
+[39.679s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/ament_index/resource_index/parent_prefix_path/point_lio
+[39.688s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.sh
+[39.695s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/environment/ament_prefix_path.dsv
+[39.704s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/environment/path.sh
+[39.712s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/environment/path.dsv
+[39.721s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/local_setup.bash
+[39.729s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/local_setup.sh
+[39.738s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/local_setup.zsh
+[39.747s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/local_setup.dsv
+[39.755s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/package.dsv
+[39.764s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/ament_index/resource_index/packages/point_lio
+[39.773s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.782s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/cmake/point_lioConfig.cmake
+[39.790s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/cmake/point_lioConfig-version.cmake
+[39.798s] -- Symlinking: /home/chairman/working/ros2/beijixiong/pb2025_ws/install/point_lio/share/point_lio/package.xml
+[39.810s] Invoked command in '/home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio' returned '0': AMENT_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/chairman/working/ros2/beijixiong/pb2025_ws/install/livox_ros_driver2/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(venv) /usr/bin/cmake --install /home/chairman/working/ros2/beijixiong/pb2025_ws/build/point_lio

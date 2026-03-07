@@ -1,0 +1,22 @@
+{
+  "package_name": "rmoss_interfaces",
+  "non_idl_tuples": [
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/referee/RefereeCmd.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/referee/GameStatus.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/referee/RobotStatus.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/referee/RfidStatus.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/referee/RfidStatusArray.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/referee/ExchangeAmmon.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/Gimbal.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/GimbalCmd.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/ShootCmd.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:msg/ChassisCmd.msg",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/SetColor.srv",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/SetMode.srv",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/GetMode.srv",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/GetCameraInfo.srv",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/GetTaskStatus.srv",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/ControlTask.srv",
+    "/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_interfaces:srv/ExchangeAmmon.srv"
+  ]
+}

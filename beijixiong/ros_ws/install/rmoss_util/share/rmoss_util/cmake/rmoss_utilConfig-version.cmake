@@ -1,0 +1,1 @@
+/home/chairman/working/ros2/beijixiong/ros_ws/build/rmoss_util/ament_cmake_core/rmoss_utilConfig-version.cmake
