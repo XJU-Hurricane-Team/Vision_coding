@@ -24,7 +24,7 @@
   - `odometry`
   - `odometry_统一坐标系`
   - `pcd2pgm`
-  - `livox_ros_driver2`（雷达启动插件）
+  - `livox_ros_driver2`
 
 
 
