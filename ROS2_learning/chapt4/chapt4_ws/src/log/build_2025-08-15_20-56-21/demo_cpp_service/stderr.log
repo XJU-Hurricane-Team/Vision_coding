@@ -1,6 +1,0 @@
-[01m[K/home/chairman/working/ros2/learning/chapt4/chapt4_ws/src/demo_cpp_service/src/patrol_client.cpp:20:35:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPatrolClient::[m[K’ on member ‘[01m[Kcall_set_parameters[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
-   20 |   std::shared_ptr<SetP::Response> [01;31m[KPatrolClient[m[K::call_set_parameters(rcl_interfaces::msg::Parameter &parameter) {
-      |                                   [01;31m[K^~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/patrol_client.dir/build.make:76: CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/patrol_client.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
