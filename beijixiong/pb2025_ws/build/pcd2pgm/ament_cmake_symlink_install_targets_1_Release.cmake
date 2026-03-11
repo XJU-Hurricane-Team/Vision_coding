@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pcd2pgm/libpcd2pgm.so" "TARGETS" "pcd2pgm" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

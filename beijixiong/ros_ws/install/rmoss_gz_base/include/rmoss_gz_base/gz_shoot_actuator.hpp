@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_gazebo/rmoss_gz_base/include/rmoss_gz_base/gz_shoot_actuator.hpp

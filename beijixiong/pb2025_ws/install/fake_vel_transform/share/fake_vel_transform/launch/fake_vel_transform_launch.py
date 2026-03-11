@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/pb2025_ws/src/pb2025_sentry_nav/fake_vel_transform/launch/fake_vel_transform_launch.py

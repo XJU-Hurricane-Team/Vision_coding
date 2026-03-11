@@ -1,9 +1,0 @@
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/uninstall.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/pb2025_sentry_nav_uninstall.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/test.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/edit_cache.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/rebuild_cache.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/list_install_components.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/install.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/install/local.dir
-/home/chairman/working/ros2/beijixiong/pb2025_ws/build/pb2025_sentry_nav/CMakeFiles/install/strip.dir

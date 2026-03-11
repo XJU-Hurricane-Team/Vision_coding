@@ -1,1 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/src/rmoss_core/rmoss_projectile_motion/include/rmoss_projectile_motion/projectile_solver_interface.hpp

@@ -1,3 +1,0 @@
-/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_gz_base/lib/librmoss_gz_base.so
-/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_gz_base/share/rmoss_gz_base/cmake/rmoss_gz_baseExport.cmake
-/home/chairman/working/ros2/beijixiong/ros_ws/install/rmoss_gz_base/share/rmoss_gz_base/cmake/rmoss_gz_baseExport-release.cmake

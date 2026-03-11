@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/tf_lookuptransform/libtf_lookuptransform_core.so" "/home/chairman/working/ros2/beijixiong/pb2025_ws/build/tf_lookuptransform/tf_lookuptransform_node" "TARGETS" "tf_lookuptransform_core" "tf_lookuptransform_node" "DESTINATION" "lib/tf_lookuptransform")
