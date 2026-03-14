@@ -1,59 +1,33 @@
 import rclpy
+import math
 from rclpy.node import Node
 from nav_msgs.msg import Path
-from geometry_msgs.msg import PoseStamped  # <--- 新增：引入 PoseStamped 消息类型
+from geometry_msgs.msg import PoseStamped
 
-# --- 手写轻量级几何变换库，杜绝缺少依赖的问题 ---
-def quat_mult(q1, q2):
-    x1, y1, z1, w1 = q1
-    x2, y2, z2, w2 = q2
-    return (
-        w1*x2 + x1*w2 + y1*z2 - z1*y2,
-        w1*y2 - x1*z2 + y1*w2 + z1*x2,
-        w1*z2 + x1*y2 - y1*x2 + z1*w2,
-        w1*w2 - x1*x2 - y1*y2 - z1*z2
-    )
+# --- 纯数学工具函数（替代Transform矩阵类） ---
+def quat_to_yaw(qz, qw):
+    """从四元数的z/w分量计算偏航角（yaw），单位：弧度"""
+    return 2.0 * math.atan2(qz, qw)
 
-def quat_apply(q, v):
-    q_v = (v[0], v[1], v[2], 0.0)
-    q_inv = (-q[0], -q[1], -q[2], q[3])
-    res = quat_mult(quat_mult(q, q_v), q_inv)
-    return (res[0], res[1], res[2])
+def yaw_to_quat(yaw):
+    """将偏航角转换回四元数（仅z/w分量，x/y为0）"""
+    qz = math.sin(yaw / 2.0)
+    qw = math.cos(yaw / 2.0)
+    return (0.0, 0.0, qz, qw)
 
-class Transform:
-    def __init__(self, x, y, z, qx, qy, qz, qw):
-        self.x = x
-        self.y = y
-        self.z = z
-        self.qx = qx
-        self.qy = qy
-        self.qz = qz
-        self.qw = qw
-
-    def inverse(self):
-        iqx, iqy, iqz, iqw = -self.qx, -self.qy, -self.qz, self.qw
-        ix, iy, iz = quat_apply((iqx, iqy, iqz, iqw), (-self.x, -self.y, -self.z))
-        return Transform(ix, iy, iz, iqx, iqy, iqz, iqw)
-
-    def __mul__(self, other):
-        rqx, rqy, rqz, rqw = quat_mult(
-            (self.qx, self.qy, self.qz, self.qw),
-            (other.qx, other.qy, other.qz, other.qw)
-        )
-        tx, ty, tz = quat_apply(
-            (self.qx, self.qy, self.qz, self.qw), 
-            (other.x, other.y, other.z)
-        )
-        return Transform(self.x + tx, self.y + ty, self.z + tz, rqx, rqy, rqz, rqw)
-# ------------------------------------------------
+def rotate_point(x, y, yaw):
+    """绕原点旋转点(x,y)，旋转角为yaw"""
+    cos_ = math.cos(yaw)
+    sin_ = math.sin(yaw)
+    rx = x * cos_ - y * sin_
+    ry = x * sin_ + y * cos_
+    return (rx, ry)
 
 class LocalPoseSubscriber(Node):
     def __init__(self):
         super().__init__('local_pose_subscriber')
         
-        # ==========================================================
         # 1. 定义 2 个【统一地图原点】
-        # ==========================================================
         map_origins = {
             'map_1': { 
                 'map_origin_x': -5.543, 'map_origin_y': -5.998, 'map_origin_z': 0.0, 'map_origin_qz': 0.0, 'map_origin_qw': 1.0,
@@ -63,9 +37,7 @@ class LocalPoseSubscriber(Node):
             }
         }
 
-        # ==========================================================
         # 2. 定义 4 个【雷达真实起步点】
-        # ==========================================================
         lidar_inits = {
             'lidar_A': { 
                 'lidar_init_x': -5.293, 'lidar_init_y': -4.090, 'lidar_init_z': 0.0, 'lidar_init_qz': 0.0, 'lidar_init_qw': 1.0,
@@ -81,16 +53,14 @@ class LocalPoseSubscriber(Node):
             }
         }
 
-        # ==========================================================
-        # 3. 【核心控制开关】：在这里自由搭配你的原点和起步点！
-        # ==========================================================
+        # 3. 【核心控制开关】：自由搭配原点和起步点
         selected_map = 'map_1'      
         selected_lidar = 'lidar_A'  
         
         curr_map = map_origins[selected_map]
         curr_lidar = lidar_inits[selected_lidar]
 
-        # 4. 声明参数时，直接将上面选中的字典值作为默认值
+        # 4. 声明并获取参数
         self.declare_parameter("map_origin_x", curr_map['map_origin_x'])
         self.declare_parameter("map_origin_y", curr_map['map_origin_y'])
         self.declare_parameter("map_origin_z", curr_map['map_origin_z']) 
@@ -103,6 +73,7 @@ class LocalPoseSubscriber(Node):
         self.declare_parameter("lidar_init_qz", curr_lidar['lidar_init_qz'])
         self.declare_parameter("lidar_init_qw", curr_lidar['lidar_init_qw'])
 
+        # 读取参数值
         mx = self.get_parameter("map_origin_x").value
         my = self.get_parameter("map_origin_y").value
         mz = self.get_parameter("map_origin_z").value
@@ -115,26 +86,34 @@ class LocalPoseSubscriber(Node):
         lqz = self.get_parameter("lidar_init_qz").value
         lqw = self.get_parameter("lidar_init_qw").value
 
-        # 5. 构建这两个点的全局位姿变换矩阵 (x, y, z, qx, qy, qz, qw)
-        T_Global_MapOrigin = Transform(mx, my, mz, 0.0, 0.0, mqz, mqw)
-        T_Global_LidarInit = Transform(lx, ly, lz, 0.0, 0.0, lqz, lqw)
+        # 5. 【核心纯数学预计算】（与C++ math版本完全对齐）
+        # 5.1 计算地图原点和雷达起步点的偏航角
+        map_yaw = quat_to_yaw(mqz, mqw)
+        lidar_yaw = quat_to_yaw(lqz, lqw)
 
-        # 6. 【核心一步】预计算：起步点相对于地图原点的固定偏移量
-        self.T_offset = T_Global_MapOrigin.inverse() * T_Global_LidarInit
+        # 5.2 计算雷达起步点与地图原点的直线差值
+        dx = lx - mx
+        dy = ly - my
         
-        # 7. 监听局部规划路径 /local_plan
+        # 5.3 旋转到地图原点的角度系下，得到固定偏移量
+        self.offset_x = dx * math.cos(map_yaw) - dy * math.sin(map_yaw)
+        self.offset_y = dx * math.sin(map_yaw) + dy * math.cos(map_yaw)
+        self.offset_z = lz - mz
+
+        # 5.4 预计算偏航角的固定差值
+        self.offset_yaw = lidar_yaw - map_yaw
+
+        # 6. 监听局部规划路径 /local_plan
         self.subscription = self.create_subscription(
             Path,
             '/local_plan', 
             self.listener_callback,
             10)
             
-        # ==========================================================
-        # 8. 新增发布者：发布变换后的目标点
-        # ==========================================================
+        # 7. 发布变换后的目标点
         self.target_pose_pub = self.create_publisher(PoseStamped, '/next_target_pose', 10)
             
-        self.get_logger().info("已启动局部路径监听，并将发布变换后的点到 /next_target_pose 话题...")
+        self.get_logger().info(f"纯数学版坐标变换节点已启动 | 预计算偏移：X={self.offset_x:.3f}, Y={self.offset_y:.3f}, Yaw={self.offset_yaw:.3f}")
           
         # 计数器，用于降低终端打印的频率
         self.print_counter = 0
@@ -144,52 +123,54 @@ class LocalPoseSubscriber(Node):
             return
 
         total_points = len(msg.poses)
-        
         # poses[0] 是小车当前位置，poses[1] 是前方的预测点
         target_index = 1 if total_points > 1 else 0
         next_pose = msg.poses[target_index]
         
-        pos = next_pose.pose.position
-        ori = next_pose.pose.orientation
-        
-        # A. 将局部路径中原生传来的预测点构建为一个矩阵
-        T_raw = Transform(pos.x, pos.y, pos.z, ori.x, ori.y, ori.z, ori.w)
-        
-        # B. 坐标修正：固定偏移量 * 当前原生坐标
-        T_final = self.T_offset * T_raw
-        
-        # C. 【绝对关键】强制还原 Z 轴数据！
-        T_final.z = pos.z
-        
-        # ==========================================================
-        # D. 构造并发布 PoseStamped 消息（高频发布，不被打印计数器拦截）
-        # ==========================================================
+        # 读取原始局部路径点的坐标和姿态
+        raw_x = next_pose.pose.position.x
+        raw_y = next_pose.pose.position.y
+        raw_z = next_pose.pose.position.z
+        raw_qz = next_pose.pose.orientation.z
+        raw_qw = next_pose.pose.orientation.w
+
+        # 6. 【核心计算】纯数学坐标变换（与C++ math版本完全对齐）
+        # 6.1 计算原始点的偏航角
+        raw_yaw = quat_to_yaw(raw_qz, raw_qw)
+
+        # 6.2 坐标旋转+平移（核心公式）
+        final_x = self.offset_x + (raw_x * math.cos(self.offset_yaw) - raw_y * math.sin(self.offset_yaw))
+        final_y = self.offset_y + (raw_x * math.sin(self.offset_yaw) + raw_y * math.cos(self.offset_yaw))
+        final_z = raw_z
+
+        # 6.3 计算最终偏航角并转换回四元数
+        final_yaw = self.offset_yaw + raw_yaw
+        _, _, final_qz, final_qw = yaw_to_quat(final_yaw)
+
+        # 7. 构造并发布变换后的PoseStamped消息
         target_msg = PoseStamped()
         target_msg.header = msg.header
-        target_msg.header.frame_id = "unified_map" # 坐标系改为统一地图坐标系
+        target_msg.header.frame_id = "unified_map"  # 统一地图坐标系
         
-        target_msg.pose.position.x = float(T_final.x)
-        target_msg.pose.position.y = float(T_final.y)
-        target_msg.pose.position.z = float(T_final.z)
+        target_msg.pose.position.x = float(final_x)
+        target_msg.pose.position.y = float(final_y)
+        target_msg.pose.position.z = float(final_z)
         
-        target_msg.pose.orientation.x = float(T_final.qx)
-        target_msg.pose.orientation.y = float(T_final.qy)
-        target_msg.pose.orientation.z = float(T_final.qz)
-        target_msg.pose.orientation.w = float(T_final.qw)
+        # 四元数x/y固定为0（仅偏航角）
+        target_msg.pose.orientation.x = 0.0
+        target_msg.pose.orientation.y = 0.0
+        target_msg.pose.orientation.z = float(final_qz)
+        target_msg.pose.orientation.w = float(final_qw)
         
         self.target_pose_pub.publish(target_msg)
         
-        # ==========================================================
-        # E. 控制终端打印频率（低频打印，避免刷屏）
-        # ==========================================================
+        # 8. 低频打印（避免刷屏）
         self.print_counter += 1
         if self.print_counter % 10 != 0:
             return
         
         self.get_logger().info(
-            f"马上要去的下一个点: "
-            f"X: {T_final.x:.3f}, Y: {T_final.y:.3f}, Z: {T_final.z:.3f} "
-            f"qz: {T_final.qz:.3f}, qw: {T_final.qw:.3f})"
+            f"X={final_x:.3f}, Y={final_y:.3f}, Z={final_z:.3f} | qz={final_qz:.3f}, qw={final_qw:.3f}"
         )
 
 def main(args=None):
